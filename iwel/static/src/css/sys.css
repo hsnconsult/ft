@@ -1,0 +1,300 @@
+
+/* CSS Document */
+.blfact {
+  font-style:italic;
+}
+.numfact {
+  width:50%;
+  float:right;
+}
+.table {
+  border:1px solid #000;
+}
+  .postebc {
+    font-size:16px;
+    font-family:Arial;
+  }
+    .tableaubc {
+    margin-top: 30px;
+    
+  }
+  .table tr td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+	border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    line-height:30px;
+    padding:2px;
+    font-size:18px;
+  }
+  .table tr th {
+    border: 1px solid #000;
+    vertical-align: middle;
+    line-height:20px;
+    background-color:#CCCCCC;
+    font-size:20px;
+  }
+ .table tr td.blfact {
+	border-bottom: 1px solid #000;
+  }
+  table tr:last-child td {
+    border-bottom: 1px solid #000;
+}
+.infoscli {
+   width:100%;
+   padding-top:70px;
+}
+
+.infosclig {
+   width:52%;
+   float:left;
+}
+.emetteur {
+   width:95%;
+   font-size:18px;
+   border: 1px solid #000;
+   line-height: 30px;
+   margin-bottom:20px;
+   padding-left:20px; 
+}
+.tableliv tr td{
+  border:1px solid #000;
+  padding:5px;
+  font-size:20px;
+}
+.tableliv{
+  width:95%;
+}
+.infosclid {
+   width:48%;
+   float:left;   
+}
+.client {
+   width:100%;
+   float:left;
+   font-size:18px;
+   border: 1px solid #000;
+   border-radius: 10px;
+   line-height: 30px;
+   margin-bottom:35px;
+   padding-left:20px;  
+}
+.numcode {
+   width:100%;
+   float:left;
+   font-size:18px; 
+   margin-bottom:10px;
+}
+.numfact {
+   width:50%;
+   float:left;
+   font-size:24px;
+   font-weight:bold;
+   text-align:center;
+   padding-top:10px;
+}
+.codebarefact {
+   width:50%;
+   float:left;
+}
+.infosclidb {
+  padding-left:10px;
+  margin-top:2px;
+  border-top: 1px solid #000;
+}
+.infosclidf {
+   width:58%;
+   float:left;
+  font-size: 16px;
+  font-family:"Times New Roman", Times, serif; 
+}
+.infosclidr {
+   width:42%;
+   float:left;
+  font-size: 16px;
+  font-family:"Times New Roman", Times, serif; 
+}
+.cli {
+  font-size: 18px;
+  font-weight:bold;
+  color:#333333; 
+}
+.nomcli {
+  font-size: 24px;
+  font-weight:bold;
+}
+.adcli {
+  font-size: 16px;
+  font-weight:bold;
+  font-style:italic;
+}
+.codetva {
+  font-size: 16px;
+  font-family:"Times New Roman", Times, serif;  
+}
+.bc {
+  width:100%;
+  font-size:28px;
+  background-color:#CCCCCC; 
+  font-weight:bold;
+  text-align:center;
+  float:right;
+  margin-bottom:20px;
+}
+.recap{
+ width:100%;
+}
+.recapg{
+ width:52%;
+ float:left;
+}
+.recapd{
+ width:40%;
+ font-weight:bold;
+ font-size:20px;
+ float:right;
+}
+.tablesom tr td{
+  border:1px solid #000;
+  padding:5px;
+  font-size:18px;
+}
+
+.tot{
+ background-color:#CCCCCC;
+ font-size:24px;
+}
+.cacheclit {
+  text-align:center;
+  float:left;
+  width:49%;
+  border-radius: 10px;
+  border:1px solid #000;
+min-height:63px;
+  vertical-align:middle;
+  margin-top:4px;
+}
+.cachedirt {
+  text-align:center;
+  float:left;
+  width:49%;
+  border-radius: 10px;
+  margin-left:10px;
+  border:1px solid #000;
+ min-height:63px;
+padding-top:10px;
+margin-top:4px;
+}
+.cachecliv {
+  text-align:center;
+  float:left;
+  width:49%;
+  border-radius: 10px;
+  min-height:180px;
+  border:1px solid #000;
+}
+.cachedirv {
+  text-align:center;
+  float:left;
+  width:49%;
+  border-radius: 10px;
+  margin-left:8px;
+  min-height:180px;
+  border:1px solid #000;
+}
+.cacheclitf {
+  text-align:center;
+  float:left;
+  width:49%;
+min-height:63px;
+  vertical-align:middle;
+  margin-top:4px;
+}
+.cacheclivf {
+  text-align:center;
+  float:left;
+  width:49%;
+  min-height:180px;
+
+}
+.tablesomg{
+  width:40%;
+}
+.ref{
+  width:5%;
+}
+.code{
+  width:10%;
+}
+.design{
+  width:35%;
+}
+.qte{
+  width:10%;
+}
+.rem{
+  width:8%;
+}
+.pu{
+  width:14%;
+}
+.ht{
+  width:13%;
+}
+.tva{
+  width:7%;
+}
+.reff{
+  width:13%;
+}
+.designf{
+  width:45%;
+}
+.qtef{
+  width:7%;
+}
+.uf{
+  width:7%;
+}
+.puf{
+  width:10%;
+}
+.ptf{
+  width:18%;
+}
+.lettre{
+   width:100%;
+   font-family:"Times New Roman", Times, serif;
+   font-style:italic;
+   margin-bottom:35px;
+  font-size:18px;
+}
+.pied{
+  font-family:"Times New Roman", Times, serif;
+}
+.noment{
+   font-size: 20px;
+   font-weight:bold
+}
+.adent{
+   font-size: 20px;
+}
+.haut{
+  font-family:"Times New Roman", Times, serif;
+  padding-top:40px;
+}
+.nomenth{
+   font-size: 30px;
+   font-weight:bold
+}
+.resp{
+ text-align:center;
+  font-size:20px;
+  border: 1px solid #000;
+  min-height: 200px;
+}
+
+.esp  tr td{
+  padding-left:15px;
+  padding-right:5px;
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="minimal_layout_inherit" inherit_id="web.minimal_layout">
+        <xpath expr="//head" position="inside">
+            <link rel='stylesheet' href="/iwel/static/src/css/iwel.css"/>
+        </xpath>
+    </template>
+
+    <template id="report_commande_test">
+        <t t-call="web.html_container">
+            <t t-set="data_report_margin_top" t-value="9"/>
+            <t t-set="data_report_header_spacing" t-value="0"/>
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="deb">
+                        <div class="debc">Bon de commande</div>
+                        <div class="debr">N° commande:
+                            <span t-esc="o.name"/>
+                        </div>
+                        <div class="debd">
+                            <strong>Date:</strong>
+                            <span t-esc="o.date" t-options='{"widget": "date"}'/>
+                        </div>
+                    </div>
+                    <div class="page pbord">
+                        <div>
+                            <div class="infosg">
+                                <t t-set="totn" t-value="0"/>
+                                <t t-foreach="o.ligne_commande" t-as="line">
+                                    <t t-set="put" t-value="0"/>
+                                    <t t-if="float(line.idarticle.c51)!=0">
+                                        <t t-set="put" t-value="float(line.idarticle.c51)/100"/>
+                                    </t>
+                                    <t t-if="float(line.idarticle.prixbase_brico)!=0">
+                                        <t t-set="put" t-value="round(line.idarticle.prixbase_brico/200,2)"/>
+                                    </t>
+                                    <t t-set="totn" t-value="round(totn+float(line.c3)*put,2)"/>
+                                </t>
+                                <strong>Nom:</strong>
+                                <span t-esc="o.idfournisseur.c3"/>
+                                <br/>
+                                <strong>Adresse:</strong>
+                                <span t-esc="o.idfournisseur.c6"/>
+                                <br/>
+                                <span t-esc="o.idfournisseur.c8"/>
+                                /
+                                <span t-esc="o.idfournisseur.c9"/>
+                                <br/>
+                                <strong>Contact</strong>
+                                <br/>
+                                <strong>Tel:</strong>
+                                <span t-esc="o.idfournisseur.c10"/>
+                                <br/>
+                                <strong>Fax:</strong>
+                                <span t-esc="o.idfournisseur.c11"/>
+                                <br/>
+                                <strong>Franco:</strong>
+                                <br/>
+                                <strong>Total HT:</strong>
+                                <span t-esc="totn"/>
+                                Euros
+                                <br/>
+                                <strong>Total TTC:</strong>
+                                <span t-esc="round(totn*1.2,2)"/>
+                                Euros
+                                <br/>
+                            </div>
+                            <div class="infosd">
+                                <strong>MAGASIN:</strong>
+                                <br/>
+                                BOULEVARD DE GAULLE
+                                <br/>
+                                BP 1939 DJIBOUTI
+                                <br/>
+                                Fax: 21359492
+                                <br/>
+                                Tel: 21359493
+                                <br/>
+                                <br/>
+                                <div class="cachet">
+                                    Signature et cachet entreprise:
+                                </div>
+                            </div>
+                        </div>
+                        <table class="tbord" width="100%" style="margin-top:15px">
+                            <tr>
+                                <th>Code</th>
+                                <th>Désignation</th>
+                                <th>EAN</th>
+                                <th>Code four.</th>
+                                <th>Tarif direct</th>
+                                <th>UE Mini</th>
+                                <th>Qté</th>
+                                <th>Valo</th>
+                            </tr>
+                            <tbody class="titreval">
+                                <tr t-foreach="o.ligne_commande" t-as="line">
+                                    <t t-set="pu" t-value="0"/>
+                                    <t t-if="float(line.idarticle.c51)!=0">
+                                        <t t-set="pu" t-value="float(line.idarticle.c51)/100"/>
+                                    </t>
+                                    <t t-if="float(line.idarticle.prixbase_brico)!=0">
+                                        <t t-set="pu" t-value="round(line.idarticle.prixbase_brico/200,2)"/>
+                                    </t>
+                                    <td>
+                                        <span t-esc="line.c1"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="line.c5"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="line.c2"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="line.idarticle.c6"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="pu"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="line.idarticle.c48"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="line.c3"/>
+                                    </td>
+                                    <td>
+                                        <span t-esc="round(float(line.c3)*pu,2)"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

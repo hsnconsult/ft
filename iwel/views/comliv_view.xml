@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Formulaires  -->
+        <record id="iwel_commande_form" model="ir.ui.view">
+            <field name="name">iwel.commande.form</field>
+            <field name="model">iwel.commande</field>
+            <field name="arch" type="xml">
+                <form string="commande" version="7.0">
+                    <header>
+                        <button name="validecommande" type="object" string="VALIDER COMMANDE" class="btn-primary"
+                                attrs="{'invisible': [('state', 'not in', ('nouveau'))]}"/>
+                        <field name="state" widget="statusbar" statusbar_visible="nouveau,valide" readonly="1"/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="date"/>
+                                <field name="idfournisseur"/>
+                                <field name="name"/>
+                            </group>
+                            <group>
+                                <field name="nbligne"/>
+                                <field name="fichier" invisible="1"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="ARTICLES COMMANDES">
+                                <field name="ligne_commande" nolabel="1">
+                                    <tree string="commande" editable="bottom">
+                                        <field name="idarticle"/>
+                                        <field name="c1"/>
+                                        <field name="c2"/>
+                                        <field name="c3"/>
+                                        <field name="c4"/>
+                                        <field name="c5"/>
+                                        <field name="c6" invisible="1"/>
+                                        <field name="c7" invisible="1"/>
+                                        <field name="c8" invisible="1"/>
+                                        <field name="c9" invisible="1"/>
+                                        <field name="c10" invisible="1"/>
+                                        <field name="c11" invisible="1"/>
+                                        <field name="c12" invisible="1"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="iwel_commande_tree" model="ir.ui.view">
+            <field name="name">iwel.commande.tree</field>
+            <field name="model">iwel.commande</field>
+            <field name="arch" type="xml">
+                <tree string="paramftp">
+                    <field name="date"/>
+                    <field name="name"/>
+                    <field name="nbligne"/>
+                    <field name="fichier"/>
+                </tree>
+            </field>
+        </record>
+        <record id="iwel_commande_search" model="ir.ui.view">
+            <field name="name">iwel.commande.search</field>
+            <field name="model">iwel.commande</field>
+            <field name="arch" type="xml">
+                <search string="paramftp">
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_iwel_commande">
+            <field name="name">commande</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">iwel.commande</field>
+
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="iwel_commande_tree"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Cliquer ici pour ajouter les commandes
+                </p>
+            </field>
+        </record>
+        <record id="iwel_reception_form" model="ir.ui.view">
+            <field name="name">iwel.reception.form</field>
+            <field name="model">iwel.reception</field>
+            <field name="arch" type="xml">
+                <form string="reception">
+                    <header>
+<!--                        <button name="startrecep" type="object" string="DEMARRER RECEPTION" class="btn-primary"-->
+<!--                                attrs="{'invisible': [('state', 'not in', ('attente','encours'))]}"/>-->
+<!--                        <button name="ajustrecep" type="object" string="AJUSTER QUANTITES RECUES" class="btn-primary"-->
+<!--                                attrs="{'invisible': [('state', 'not in', ('attente','encours'))]}"/>-->
+<!--                        <button name="validetout" type="object" string="RECEPTIONNER TOUT" class="btn-primary"-->
+<!--                                attrs="{'invisible': [('state', 'not in', ('attente','encours'))]}"/>-->
+                        <button name="create_purchase_order" type="object" string="Create a command" class="btn-primary"
+                                attrs="{'invisible': [('state', 'not in', ('attente','encours'))]}"/>
+<!--                        <button name="miseenstock" type="object" string="MISE EN STOCK" class="btn-primary"-->
+<!--                                attrs="{'invisible': [('state', '!=', 'termine')]}"/>-->
+                        <field name="state" widget="statusbar" statusbar_visible="attente,encours,termine"
+                               readonly="1"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button class="oe_stat_button"  icon="fa-shopping-cart" name="see_purchase_orders" type="object">
+                                <field name="nb_pos" widget="statinfo" string="Orders"/>
+                            </button>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="fichier"/>
+                                <field name="numbl"/>
+                                <field name="datereception"/>
+                            </group>
+                            <group>
+                                <field name="nb"/>
+                                <field name="nbvalide"/>
+                                <field name="nbnonvalide"/>
+                                <field name="codebare"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="ARTICLES RECEPTIONNES">
+                                <field name="ligne_reception" nolabel="1"
+                                       options="{'no_create':True, 'no_delete': True}">
+                                    <tree string="reception" editable="bottom"
+                                          options="{'no_create':True, 'no_delete': True}">
+<!--                                        <field name="idpicking"/>-->
+                                        <field name="c9"/>
+                                        <field name="c11"/>
+                                        <field name="c8"/>
+                                        <field name="c10"/>
+                                        <field name="c13"/>
+                                        <field name="c14"/>
+                                        <field name="qterecue"/>
+                                        <field name="endommage"/>
+                                        <field name="ecart"/>
+                                        <field name="ecartcom"/>
+                                        <field name="state" invisible="1"/>
+<!--                                        <button name="validecom" type="object" string="Receptionner" class="btn-primary"-->
+<!--                                                attrs="{'invisible': [('state', '!=', 'nonvalid')]}"/>-->
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="iwel_reception_tree" model="ir.ui.view">
+            <field name="name">iwel.reception.tree</field>
+            <field name="model">iwel.reception</field>
+            <field name="arch" type="xml">
+                <tree string="RECEPTIONS">
+                    <field name="fichier"/>
+                    <field name="datereception"/>
+                    <field name="nbvalide"/>
+                    <field name="nbnonvalide"/>
+                    <field name="nb"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+        <record id="iwel_reception_search" model="ir.ui.view">
+            <field name="name">iwel.reception.search</field>
+            <field name="model">iwel.reception</field>
+            <field name="arch" type="xml">
+                <search string="paramftp">
+                    <field name="fichier"/>
+                </search>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="action_iwel_reception">
+            <field name="name">reception</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">iwel.reception</field>
+
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="iwel_reception_tree"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Cliquer ici pour ajouter les receptions
+                </p>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="action_iwel_commande">
+            <field name="name">commande</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">iwel.commande</field>
+
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="iwel_commande_tree"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Cliquer ici pour ajouter les commandes
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_weldom" name="WELDOM" sequence="200" parent="purchase.menu_purchase_root"/>
+        <menuitem id="menu_iwel_reception" name="Réceptions" parent="menu_weldom" sequence="10"
+                  action="action_iwel_reception"/>
+        <menuitem id="menu_iwel_commande" name="Commandes" parent="menu_weldom" sequence="20"
+                  action="action_iwel_commande"/>
+    </data>
+</odoo>

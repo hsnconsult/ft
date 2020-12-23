@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="minimal_layout_inherit" inherit_id="web.minimal_layout">
+        <xpath expr="//head" position="inside">
+            <link rel='stylesheet' href="/iwel/static/src/css/iwel.css"/>
+        </xpath>
+    </template>
+
+    <template id="report_facture_test">
+        <t t-call="web.html_container">
+            <t t-set="data_report_margin_top" t-value="3"/>
+            <t t-set="data_report_margin_left" t-value="12"/>
+            <t t-set="data_report_header_spacing" t-value="9"/>
+            <t t-set="data_report_dpi" t-value="110"/>
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <!--<div class="header text-left haut">
+             <img src="/iwel/static/src/img/entete.png" width="100%"/>
+           </div>-->
+                    <div class="page article"
+                         style="font-family:Arial, Helvetica, sans-serif; margin-top:20px; padding-top:20px;">
+                        <t t-if="o.state in ('draft')">
+                            <div style="position:absolute;opacity:0.25;z-index:1000;transform:rotate(300deg);-webkit-transform:rotate(300deg);width:150%;">
+                                <p style="font-size:150px;">BROUILLON</p>
+                            </div>
+                        </t>
+
+                        <div class="infoscli">
+                            <div class="infosclig">
+                                <div class="emetteur">
+                                    <span class="nomcli">BRICO DISCOUNT</span>
+                                    <br/>
+                                    Saline Ouest - Route de Venise
+                                    <br/>
+                                    1939 DJIBOUTI
+                                    <br/>
+                                    Tel: 21 35 15 45
+                                    <br/>
+                                    IF:
+                                    <br/>
+                                    Djibouti, le
+                                    <span t-field="o.invoice_date" t-options="{'widget': 'date'}"/>
+                                </div>
+                                <table class="tableliv">
+                                    <tr>
+                                        <td width="40%">Adresse de Livraison</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vos références</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="infosclid">
+                                <div class="numcode">
+                                    <div class="numfact">
+                                        N°
+                                        <span t-esc="o.name"/>
+                                    </div>
+                                    <div class="codebarefact">
+                                        <img alt="Barcode" t-if="len(o.name) != 0"
+                                             t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', o.name, 600, 150)"
+                                             style="width:100%;height::3rem;"/>
+                                    </div>
+                                </div>
+                                <div class="client">
+                                    <span class="cli">CLIENT:</span>
+                                    <br/>
+                                    <span t-esc="o.partner_id.name" class="nomcli"/>
+                                    <br/>
+                                    <span t-esc="o.partner_id.street" class="adcli"/>
+                                    <span t-esc="o.partner_id.zip" class="adcli"/>
+                                    <span t-esc="o.partner_id.city" class="adcli"/>
+                                    <span t-esc="o.partner_id.country_id.name" class="adcli"/>
+                                    <br/>
+                                    Tél. :
+                                    <span t-esc="o.partner_id.phone"/>
+                                    <br/>
+                                    Mobile. :
+                                    <span t-esc="o.partner_id.mobile"/>
+                                    <br/>
+                                    E-mail :
+                                    <span t-esc="o.partner_id.email"/>
+                                    <br/>
+                                    <div class="infosclidb">
+                                        <div class="infosclidf">
+                                            <span class="codetva">IF N°:</span>
+                                            <span t-esc="o.partner_id.vat" class="codetva"/>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tableau">
+                            <table class="table esp" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th class="ref">N°</th>
+                                        <th class="code">Code</th>
+                                        <th class="design">Désignation</th>
+                                        <th class="qte">Quantité</th>
+                                        <th class="rem">Remise</th>
+                                        <th class="pu">P.U. net H.T</th>
+                                        <th class="ht">Montant H.T</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="poste">
+                                    <tr>
+                                        <td colspan="7" class="blfact">
+                                            <strong>Bon de Livraison N° BL00001515 du 26/12/2019</strong>
+                                        </td>
+                                    </tr>
+                                    <t t-foreach="o.invoice_line_ids" t-as="oline">
+                                        <tr>
+                                            <td class="hauteur" valign="middle">
+                                                <strong>
+                                                    <span t-esc="numligne"/>
+                                                </strong>
+                                            </td>
+                                            <td class="hauteur" valign="middle">
+                                                <strong>
+                                                    <span t-esc="oline.product_id.default_code"/>
+                                                </strong>
+                                            </td>
+                                            <td class="hauteur" valign="middle">
+                                                <strong>
+                                                    <span t-esc="oline.product_id.name"/>
+                                                </strong>
+                                            </td>
+                                            <td align="center" valign="middle">
+                                                <span t-esc="'{:,.0f}'.format(oline.quantity).replace(',', ' ').replace('.', ',')"/>
+                                            </td>
+                                            <td align="center" valign="middle">
+                                                <span t-esc="'{:,.0f}'.format(oline.quantity).replace(',', ' ').replace('.', ',')"/>
+                                            </td>
+                                            <td align="right" valign="middle">
+                                                <span t-esc="'{:,.0f}'.format(oline.price_unit).replace(',', ' ').replace('.', ',')"/>
+                                            </td>
+                                            <td align="right" valign="middle">
+                                                <span t-esc="'{:,.0f}'.format(oline.price_subtotal).replace(',', ' ').replace('.', ',')"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+                            <div class="lettre">Arrêté la facture n°
+                                <span t-esc="o.name"/>
+                                à la somme de
+                                <strong>
+                                    <span t-esc="o.company_id.amount_in_words(o.amount_total)"/>
+                                </strong>
+                            </div>
+                        </div>
+                        <div class="recap">
+                            <div class="recapg">
+                                <table class="tablesom" width="80%">
+                                    <tr>
+                                        <td>Date de facturation</td>
+                                        <td>Date d'échéance</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span t-field="o.invoice_date" t-options="{'widget': 'date'}"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="o.invoice_date_due" t-options="{'widget': 'date'}"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br/>
+                                <strong>Conditions de règlement:</strong>
+                                <span t-esc="o.invoice_payment_term_id.name"/>
+                            </div>
+                            <div class="recapd">
+                                <table class="tablesom" width="100%">
+                                    <tr>
+                                        <td class="tablesomg cg">TOTAL H.T.V.A</td>
+                                        <td align="right" class="cg">
+                                            <span t-esc="o.amount_untaxed"
+                                                  t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cg">Total T.V.A.</td>
+                                        <td align="right" class="cg">
+                                            <span t-esc="o.amount_tax"
+                                                  t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cg">TOTAL TTC</td>
+                                        <td class="tot cg" align="right">
+                                            <span t-esc="o.amount_total"
+                                                  t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                                        </td>
+                                    </tr>
+                                    <t t-set="payments_vals" t-value="o._get_reconciled_info_JSON_values()"/>
+                                    <t t-foreach="payments_vals" t-as="payment_vals">
+                                        <tr>
+                                            <td>
+                                                <i class="oe_form_field text-right oe_payment_label">Acompte du
+                                                    <t t-esc="payment_vals['date'].strftime('%d-%m-%Y')"/>
+                                                </i>
+                                            </td>
+                                            <td class="text-right">
+                                                <span t-esc="payment_vals['amount']"
+                                                      t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                                            </td>
+                                        </tr>
+                                    </t>
+<!--                                    <t t-if="len(payments_vals) > 0">-->
+<!--                                        <tr class="border-black">-->
+<!--                                            <td>-->
+<!--                                                <strong>Amount Due</strong>-->
+<!--                                            </td>-->
+<!--                                            <td class="text-right">-->
+<!--                                                <span t-field="o.amount_residual"/>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </t>-->
+                                    <!--                                    <t t-set="payments_vals" t-value="o._get_payments_vals()"/>-->
+                                    <!--                                    <t t-foreach="payments_vals" t-as="payment_vals">-->
+                                    <!--                                        <tr>-->
+                                    <!--                                            <td>-->
+                                    <!--                                                <i class="oe_form_field text-right oe_payment_label">Acompte du-->
+                                    <!--                                                    <t t-esc="payment_vals['date']" t-options="{'widget': 'date'}"/>-->
+                                    <!--                                                </i>-->
+                                    <!--                                            </td>-->
+                                    <!--                                            <td class="text-right">-->
+                                    <!--                                                <span t-esc="payment_vals['amount']"-->
+                                    <!--                                                      t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>-->
+                                    <!--                                            </td>-->
+                                    <!--                                        </tr>-->
+                                    <!--                                    </t>-->
+
+                                    <tr>
+                                        <td class="cg">Montant dû</td>
+                                        <td align="right" class="cg">
+                                            <span t-esc="o.amount_residual"
+                                                  t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br/>
+                                <div class="resp">
+                                    <strong>Signature autorisée</strong>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer text-center pied">
+                        Rue 15.15 Djibouti - Tel: 21 35 15 45 - Email: brico@brico.com
+                        <br/>
+                        Compte SALAM BANK N°141245411; Compte EAB N°
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <!--    <template id="report_invoice_document_with_payments" inherit_id="account.report_invoice_document" primary="True">-->
+    <!--            <xpath expr="//div[@id='total']/div/table" position="inside">-->
+    <!--                -->
+    <!--            </xpath>-->
+    <!--        </template>-->
+</odoo>

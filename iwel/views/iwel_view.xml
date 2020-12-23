@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+<!-- Formulaires  -->
+
+<!--       <record id="view_iwel_article_form" model="ir.ui.view">-->
+<!--            <field name="name">Product.ext</field>-->
+<!--            <field name="model">product.template</field>-->
+<!--            <field name="inherit_id" ref="product.product_template_only_form_view"/>-->
+<!--            <field name="arch" type="xml">-->
+<!--			<xpath expr="//field[@name='barcode']" position="after">-->
+<!--				   <field name="refuniq"/>-->
+<!--				   <field name="barcode2" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <field name="barcode3" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <field name="idfamille"/>-->
+<!--				   <field name="idrayon"/>-->
+<!--				   <field name="idfournisseur" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--                </xpath>-->
+<!--			<xpath expr="//field[@name='uom_po_id']" position="after">-->
+<!--			      <div style="border:1px solid #000; min-height:2px; margin-bottom:10px">  </div> -->
+<!--			       <field name="marge" invisible="1"/>-->
+<!--				<field name="margeb"/>-->
+<!--			       <field name="cout"  invisible="1"/>-->
+<!--				   <field name="prixbase_brico" invisible="1"/>-->
+<!--			       <field name="prixbase_dj" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <field name="prixbase" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <field name="frais" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <field name="coeff" attrs="{'invisible': [('refuniq', '=', False)]}"/>-->
+<!--				   <button name="majprix" string="MISE A JOUR PRIX" type="object" class="btn-primary" invisible="1"/>-->
+<!--				 -->
+<!--                </xpath>-->
+<!--                <xpath expr="//page[1]" position="after">-->
+<!--						  <page string = "INFOS WELDOM" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <group>-->
+<!--  						     <group>-->
+<!--								<field name="c1"/>-->
+<!--								<field name="c2"/>-->
+<!--								<field name="c4"/>-->
+<!--								<field name="c5"/>-->
+<!--								<field name="c6"/>-->
+<!--								<field name="c7"/>-->
+<!--								<field name="c8"/>-->
+<!--								<field name="c9"/>-->
+<!--								<field name="c10"/>-->
+<!--								<field name="c11"/>-->
+<!--								<field name="c12"/>-->
+<!--								<field name="c13"/>-->
+<!--								<field name="c14"/>-->
+<!--								<field name="c15"/>-->
+<!--								<field name="c16"/>-->
+<!--								<field name="c17"/>-->
+<!--								<field name="c18"/>-->
+<!--								<field name="c19"/>-->
+<!--								<field name="c20"/>-->
+<!--								<field name="c21"/>-->
+<!--								<field name="c22"/>-->
+<!--								<field name="c23"/>-->
+<!--								<field name="c24"/>-->
+<!--								<field name="c25"/>-->
+<!--								<field name="c26"/>-->
+<!--								<field name="c27"/>-->
+<!--								<field name="c28"/>-->
+<!--								<field name="c29"/>-->
+<!--								<field name="c30"/>-->
+<!--								<field name="c31"/>-->
+<!--								<field name="c32"/>-->
+<!--								<field name="c33"/>-->
+<!--								<field name="c34"/>-->
+<!--								<field name="c35"/>-->
+<!--								<field name="c36"/>-->
+<!--								<field name="c37"/>-->
+<!--								<field name="c38"/>-->
+<!--								<field name="c39"/>-->
+<!--								<field name="c40"/>-->
+<!--								<field name="c41"/>-->
+<!--								<field name="c42"/>-->
+<!--								<field name="c43"/>-->
+<!--								<field name="c44"/>-->
+<!--								<field name="c45"/>-->
+<!--								<field name="c46"/>-->
+<!--								<field name="c47"/>-->
+<!--								<field name="c48"/>-->
+<!--								<field name="c49"/>-->
+<!--								<field name="c50"/>-->
+<!--								<field name="c51"/>-->
+<!--								<field name="c52"/>-->
+<!--								<field name="c53"/>-->
+<!--								<field name="c54"/>-->
+<!--								<field name="c55"/>-->
+<!--								<field name="c56"/>-->
+<!--								<field name="c57"/>-->
+<!--								<field name="c58"/>-->
+<!--								<field name="c59"/>-->
+<!--								<field name="c60"/>-->
+<!--								<field name="c61"/>-->
+<!--								<field name="c62"/>-->
+<!--								<field name="c63"/>-->
+<!--								<field name="c64"/>		-->
+<!--								<field name="codeimport"/>-->
+<!--								<field name="codedel"/>-->
+<!--								<field name="stockdelfi"/>-->
+<!--  						     </group>-->
+<!--  						    </group>-->
+<!--  						   </page>-->
+<!--						  <page string = "GENCODS" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <field name="ligne_gencod" nolabel="1">-->
+<!--                                <tree string="gencod" editable="bottom">-->
+<!--								  <field name="c1"/>						-->
+<!--  						        </tree>-->
+<!--                            </field>-->
+<!--  						   </page>-->
+<!--						   <page string = "PROMOTIONS" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <field name="ligne_promo" nolabel="1">-->
+<!--                               <tree string="promo" editable="bottom">-->
+<!--								<field name="c2"/>-->
+<!--								<field name="c9"/>	-->
+<!--								<field name="c18"/>		-->
+<!--								<field name="c19"/>-->
+<!--								<field name="c20"/>-->
+<!--								<field name="c21"/>-->
+<!--								<field name="c22"/>-->
+<!--								<field name="c23"/>-->
+<!--								<field name="c24"/>	-->
+<!--								<field name="c25"/>	-->
+<!--								<field name="c26"/>			-->
+<!--								<field name="c7"/>-->
+<!--  						     </tree>-->
+<!--                            </field>-->
+<!--  						   </page>-->
+<!--						    <page string = "PROMOS DIRECTES" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <field name="ligne_promod" nolabel="1">-->
+<!--                                <tree string="promod" editable="bottom">-->
+<!--								<field name="c1"/>-->
+<!--								<field name="c3"/>	-->
+<!--								<field name="c4"/>		-->
+<!--								<field name="c5"/>-->
+<!--								<field name="c6"/>-->
+<!--								<field name="c7"/>-->
+<!--								<field name="c8"/>-->
+<!--								<field name="c9"/>-->
+<!--  						     </tree>-->
+<!--                            </field>-->
+<!--  						   </page>-->
+<!--						   <page string = "DESC. FONC" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <field name="ligne_fonc" nolabel="1">-->
+<!--                                <tree string="desc" editable="bottom">-->
+<!--								<field name="c3"/>-->
+<!--								<field name="c5"/>	-->
+<!--  						     </tree>-->
+<!--                            </field>-->
+<!--  						   </page>-->
+<!--						   <page string = "TARIFS" attrs="{'invisible': [('refuniq', '=', False)]}">-->
+<!--						    <field name="ligne_tarif" nolabel="1">-->
+<!--                                <tree string="tarif" editable="bottom">-->
+<!--								<field name="c2"/>-->
+<!--								<field name="c3"/>	-->
+<!--								<field name="c4"/>		-->
+<!--								<field name="c5"/>-->
+<!--								<field name="c6"/>-->
+<!--								<field name="c7"/>-->
+<!--								<field name="c8"/>-->
+<!--								<field name="c9"/>-->
+<!--  						     </tree>-->
+<!--                            </field>-->
+<!--  						   </page>-->
+<!--                </xpath>-->
+<!--            </field>-->
+<!--        </record>-->
+
+
+
+		<record id="iwel_gestfichier_form" model="ir.ui.view">
+			<field name="name">iwel.gestfichier.form</field>
+			<field name="model">iwel.gestfichier</field>
+			<field name="arch" type="xml">
+				<form string="gestfichier" version="7.0">
+				   <header>
+				    <button name="imp_fichier" string="IMPORTER" type="object" class="btn-primary"/>
+					<button name="reception" string="RECEVOIR" type="object" class="btn-primary"/>
+					<button name="imp_bla" string="IMPORTER BL.ZIP" type="object" class="btn-primary"/>   
+				   </header>
+					<sheet>
+					<group>
+						<group>
+							<field name="name"/>
+						</group>
+					</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_gestfichier_tree" model="ir.ui.view">
+			<field name="name">iwel.gestfichier.tree</field>
+			<field name="model">iwel.gestfichier</field>
+			<field name="arch" type="xml">
+				<tree string="gestfichier">
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_gestfichier_search" model="ir.ui.view">
+			<field name="name">iwel.gestfichier.search</field>
+			<field name="model">iwel.gestfichier</field>
+			<field name="arch" type="xml">
+				<search string="gestfichier">
+					<field name="name"/>
+				</search>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="action_iwel_gestfichier">
+			<field name="name">gestfichier</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.gestfichier</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_gestfichier_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter un gestfichier
+        </p>
+			</field>
+		</record>
+		<record id="iwel_paramftp_form" model="ir.ui.view">
+			<field name="name">iwel.paramftp.form</field>
+			<field name="model">iwel.paramftp</field>
+			<field name="arch" type="xml">
+				<form string="paramftp" version="7.0">
+					<sheet>
+					<group>
+						<group>
+							<field name="serveur"/>
+							<field name="user"/>
+							<field name="password"/>
+							<field name="repiwel"/>
+							<field name="repentree"/>
+							<field name="reparchives"/>
+						</group>
+					</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_paramftp_tree" model="ir.ui.view">
+			<field name="name">iwel.paramftp.tree</field>
+			<field name="model">iwel.paramftp</field>
+			<field name="arch" type="xml">
+				<tree string="paramftp">
+					<field name="serveur"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_paramftp_search" model="ir.ui.view">
+			<field name="name">iwel.paramftp.search</field>
+			<field name="model">iwel.paramftp</field>
+			<field name="arch" type="xml">
+				<search string="paramftp">
+					<field name="serveur"/>
+				</search>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="action_iwel_paramftp">
+			<field name="name">paramftp</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.paramftp</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_paramftp_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter les parametres FTP
+        </p>
+			</field>
+		</record>
+		
+		<record id="iwel_table_form" model="ir.ui.view">
+			<field name="name">iwel.table.form</field>
+			<field name="model">iwel.table</field>
+			<field name="arch" type="xml">
+				<form string="table" version="7.0">
+					<sheet>
+					<group>
+						<group>
+							<field name="name"/>
+							<field name="periodicite"/>
+							<field name="sequence"/>
+							 <field name="nbchamp"/>
+						</group>
+						<group>
+						    <field name="table"/>
+							<field name="mode"/>
+							<field name="nb"/>
+							<field name="positionref"/>
+							<field name="positionname"/>
+							<field name="champoblig"/>
+							<field name="valdef"/>
+							<field name="nbaj"/>
+						</group>
+					</group>
+					<notebook>
+					   <page string="CHAMPS">
+							  <field name="ligne_champs" nolabel="1">
+                                <tree string="champ" editable="bottom">
+									<field name="numcol" />
+									<field name="libelle" />
+									<field name="format" />
+									<field name="position" />
+									<field name="longueur" />
+									<field name="description" />
+                                </tree>
+                            </field>
+					   </page>
+                     </notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_table_tree" model="ir.ui.view">
+			<field name="name">iwel.table.tree</field>
+			<field name="model">iwel.table</field>
+			<field name="arch" type="xml">
+				<tree string="table">
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_table_search" model="ir.ui.view">
+			<field name="name">iwel.table.search</field>
+			<field name="model">iwel.table</field>
+			<field name="arch" type="xml">
+				<search string="table">
+					<field name="name"/>
+				</search>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="action_iwel_table">
+			<field name="name">table</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.table</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_table_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter une table
+        </p>
+			</field>
+		</record>
+
+
+		<record id="iwel_wnomray_form" model="ir.ui.view">
+			<field name="name">iwel.wnomray.form</field>
+			<field name="model">iwel.wnomray</field>
+			<field name="arch" type="xml">
+				<form string="wnomray" version="7.0">
+				  <header>
+				    <button name="majprix" string="MISE A JOUR PRIX" type="object" class="btn-primary"/>
+				   </header>
+					<sheet>
+					<group>
+						<group>
+							<field name="c1"/>
+							<field name="c2"/>
+						</group>
+						<group>
+							<field name="coeff"/>
+							<field name="frais"/>
+						</group>
+					</group>
+					<notebook>
+					   <page string="FAMILLES">
+							  <field name="ligne_famille" nolabel="1">
+                                <tree string="famille" editable="bottom">
+									<field name="c2" />
+									<field name="c3" />
+									<field name="coeff" />
+									<field name="frais" />
+                                </tree>
+                            </field>
+					   </page>
+                     </notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_wnomray_tree" model="ir.ui.view">
+			<field name="name">iwel.wnomray.tree</field>
+			<field name="model">iwel.wnomray</field>
+			<field name="arch" type="xml">
+				<tree string="paramftp">
+					        <field name="c1"/>
+							<field name="c2"/>
+							<field name="coeff"/>
+							<field name="frais"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_wnomray_search" model="ir.ui.view">
+			<field name="name">iwel.wnomray.search</field>
+			<field name="model">iwel.wnomray</field>
+			<field name="arch" type="xml">
+				<search string="paramftp">
+					<field name="c1"/>
+				</search>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="action_iwel_wnomray">
+			<field name="name">wnomray</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.wnomray</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_wnomray_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter les rayons
+        </p>
+			</field>
+		</record>		
+
+		<record id="iwel_fournisseur_form" model="ir.ui.view">
+			<field name="name">iwel.fournisseur.form</field>
+			<field name="model">iwel.fournisseur</field>
+			<field name="arch" type="xml">
+				<form string="fournisseur" version="7.0">
+					<sheet>
+					<group>
+						<group>
+							<field name="c1"/>
+							<field name="c2"/>
+							<field name="c3"/>
+							<field name="c4"/>
+							<field name="c5"/>
+							<field name="c6"/>
+							<field name="c7"/>
+							<field name="c8"/>
+							<field name="c9"/>
+							<field name="c10"/>
+							<field name="c11"/>
+							<field name="c12"/>
+							<field name="c13"/>
+							<field name="c14"/>
+							<field name="c15"/>
+							<field name="c16"/>
+							<field name="c17"/>
+							<field name="c18"/>
+							<field name="c19"/>
+							<field name="c20"/>
+							<field name="c21"/>
+							<field name="c22"/>
+							<field name="c23"/>
+						</group>
+					</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_fournisseur_tree" model="ir.ui.view">
+			<field name="name">iwel.fournisseur.tree</field>
+			<field name="model">iwel.fournisseur</field>
+			<field name="arch" type="xml">
+				<tree string="Fournisseurs">
+					        <field name="c1"/>
+							<field name="c3"/>
+							<field name="c6"/>
+							<field name="c9"/>
+							<field name="c10"/>
+							<field name="c12"/>
+							<field name="c17"/>
+							<field name="c18"/>
+							<field name="c19"/>
+							<field name="c20"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_fournisseur_search" model="ir.ui.view">
+			<field name="name">iwel.fournisseur.search</field>
+			<field name="model">iwel.fournisseur</field>
+			<field name="arch" type="xml">
+				<search string="fournisseurs">
+					<field name="c1"/>
+				</search>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="action_iwel_fournisseur">
+			<field name="name">fournisseur</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.fournisseur</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_fournisseur_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter les fournisseurs
+        </p>
+			</field>
+		</record>	
+		<record id="iwel_delfi_tree" model="ir.ui.view">
+			<field name="name">iwel.delfi.tree</field>
+			<field name="model">iwel.delfi</field>
+			<field name="arch" type="xml">
+				<tree string="Delfi">
+					<field name="delfi"/>
+					<field name="codep"/>
+					<field name="barcode"/>
+					<field name="libelle"/>
+					<field name="stock"/>
+					<field name="pvente"/>
+					<field name="pachat"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_etiquette_form" model="ir.ui.view">
+			<field name="name">iwel.etiquette.form</field>
+			<field name="model">iwel.etiquette</field>
+			<field name="arch" type="xml">
+				<form string="etiquette">
+					<sheet>
+					<group>
+						<group>
+							<field name="date"/>
+							<field name="nb"/>				
+						</group>
+					</group>
+					<notebook>
+					   <page string="Etiquettes">
+							  <field name="ligne_etiquette" nolabel="1">
+                                <tree string="Etiquettes" editable="bottom">
+								    <field name="barcode" />
+									<field name="codep" />
+									<field name="codef" />
+									<field name="nomp" />
+									<field name="date" />
+									<field name="prix" />
+									<field name="currency_id" invisible="1"/>
+                                </tree>
+                            </field>
+					   </page>
+                     </notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record id="iwel_etiquette_tree" model="ir.ui.view">
+			<field name="name">iwel.etiquette.tree</field>
+			<field name="model">iwel.etiquette</field>
+			<field name="arch" type="xml">
+				<tree string="paramftp">
+							<field name="date"/>
+							<field name="nb"/>
+				</tree>
+			</field>
+		</record>
+		<record id="iwel_etiquette_search" model="ir.ui.view">
+			<field name="name">iwel.etiquette.search</field>
+			<field name="model">iwel.etiquette</field>
+			<field name="arch" type="xml">
+				<search string="Etiquettes">
+					<field name="name" />
+					<field name="date"/>
+				</search>
+			</field>
+		</record>	
+		<record model="ir.actions.act_window" id="action_iwel_etiquette">
+			<field name="name">Liste des étiquettes</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">iwel.etiquette</field>
+
+			<field name="view_mode">tree,form</field>
+			<field name="view_id" ref="iwel_etiquette_tree"/>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+          Cliquer ici pour ajouter des etiquettes
+        </p>
+			</field>
+		</record>
+	    
+<!--<menuitem id="menu_iwel" name="IWEL"  sequence="200" web_icon="iwel,static/description/icon.png"/>-->
+<!--<menuitem id="menu_iwel_gestfichier" name="Generation" parent = "menu_iwel" sequence="10" action="action_iwel_gestfichier"/>-->
+<!--<menuitem id="menu_iwel_parametres" name="Paramètres" parent = "menu_iwel" sequence="20"/>-->
+<!--<menuitem id="menu_iwel_parametres_ftp" name="Paramètres FTP" parent = "menu_iwel_parametres" sequence="10" action="action_iwel_paramftp"/>-->
+<!--<menuitem id="menu_iwel_parametres_tables" name="Paramètres Tables" parent = "menu_iwel_parametres" sequence="20" action="action_iwel_table"/>-->
+<!--<menuitem id="menu_iwel_parametres_rayons" name="Rayons" parent = "menu_iwel_parametres" sequence="30" action="action_iwel_wnomray"/>-->
+<!--<menuitem id="menu_iwel_parametres_fournisseurs" name="Fournisseurs" parent = "menu_iwel_parametres" sequence="40" action="action_iwel_fournisseur"/>-->
+<menuitem id="menu_iwel_etiquettes" name="Etiquettes"  sequence="250" web_icon="iwel,static/description/icon.png"/>
+<menuitem id="menu_iwel_liste" name="Liste d'étiquettes" parent = "menu_iwel_etiquettes" sequence="10" action="action_iwel_etiquette"/>
+
+
+       <record id="view_iwel_company_form" model="ir.ui.view">
+            <field name="name">Company.ext</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='website']" position="after">
+                  <field name="deciwel"/>   
+                  <field name="tauxdevise"/>  
+                  <field name="frais"/>  
+				  <field name="coeff"/> 
+			         <field name="sequencecom"/>
+			
+                </xpath>
+            </field>
+        </record>
+	 </data>
+</odoo>

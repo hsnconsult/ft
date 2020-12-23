@@ -1,0 +1,4386 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* iwel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 11:11+0000\n"
+"PO-Revision-Date: 2020-04-16 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "% discount"
+msgstr "% remise"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "&nbsp;"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "- Réceptionné le"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "-------------------REEDITION------------"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<br/>\n"
+"                                    E-mail :"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<br/>\n"
+"                                    Mobile. :"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<br/>\n"
+"                                    Tél. :"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"<br/>\n"
+"                                <strong>Adresse:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<br/>\n"
+"                                <strong>Conditions de règlement:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"<br/>\n"
+"                                <strong>Contact</strong>\n"
+"                                <br/>\n"
+"                                <strong>Tel:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"<br/>\n"
+"                                <strong>Fax:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"<br/>\n"
+"                                <strong>Franco:</strong>\n"
+"                                <br/>\n"
+"                                <strong>Total HT:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<span class=\"cli\">CLIENT:</span>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "<span class=\"codetva\">IF N°:</span>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<span class=\"nomcli\">BRICO DISCOUNT</span>\n"
+"                                    <br/>\n"
+"                                    Saline Ouest - Route de Venise\n"
+"                                    <br/>\n"
+"                                    1939 DJIBOUTI\n"
+"                                    <br/>\n"
+"                                    Tel: 21 35 15 45\n"
+"                                    <br/>\n"
+"                                    IF:\n"
+"                                    <br/>\n"
+"                                    Djibouti, le"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "<strong>Bon de Livraison N° BL00001515 du 26/12/2019</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "<strong>Date:</strong>"
+msgstr "<strong>Date :</strong>"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"<strong>MAGASIN:</strong>\n"
+"                                <br/>\n"
+"                                BOULEVARD DE GAULLE\n"
+"                                <br/>\n"
+"                                BP 1939 DJIBOUTI\n"
+"                                <br/>\n"
+"                                Fax: 21359492\n"
+"                                <br/>\n"
+"                                Tel: 21359493\n"
+"                                <br/>\n"
+"                                <br/>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "<strong>Nom:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"<strong>Signature autorisée</strong>\n"
+"                                    <br/>\n"
+"                                    <br/>\n"
+"                                    <br/>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "ABC"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "AJUSTER QUANTITES RECUES"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_commande_form
+msgid "ARTICLES COMMANDES"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "ARTICLES RECEPTIONNES"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__access_warning
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__access_warning
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__access_warning
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__access_warning
+msgid "Access warning"
+msgstr "Avertissement d'accès"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Acompte du"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_needaction
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_needaction
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_needaction
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_needaction
+msgid "Action Needed"
+msgstr "Nécessite une action"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_exception_decoration
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_exception_decoration
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_exception_decoration
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activité d'exception de décoration"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_state
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_state
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_state
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_state
+msgid "Activity State"
+msgstr "Status de l'activité"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Add a customer"
+msgstr "Ajouter un client"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Address"
+msgstr "Adresse"
+
+#. module: iwel
+#: model:res.groups,name:iwel.group_iwel_administrateur
+msgid "Administrateur"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Adresse de Livraison"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c6
+msgid "Adresse1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c7
+msgid "Adresse2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c8
+msgid "Adresse3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c48
+#: model:ir.model.fields,field_description:iwel.field_product_template__c48
+msgid "Ancienne unité de prix"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__reparchives
+msgid "Archives des fichiers"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Arrêté la facture n°"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c49
+#: model:ir.model.fields,field_description:iwel.field_product_template__c49
+msgid "Art à délai de liv. supp"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__idarticle
+msgid "Article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c44
+#: model:ir.model.fields,field_description:iwel.field_product_template__c44
+msgid "Article de substitution"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c40
+#: model:ir.model.fields,field_description:iwel.field_product_template__c40
+msgid "Article permanent"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__ligne_article
+msgid "Articles"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c29
+#: model:ir.model.fields,field_description:iwel.field_product_template__c29
+msgid "Assortiment complémentaire 1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c30
+#: model:ir.model.fields,field_description:iwel.field_product_template__c30
+msgid "Assortiment complémentaire 2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c26
+#: model:ir.model.fields,field_description:iwel.field_product_template__c26
+msgid "Assortiment mini (NIV GAMME)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c27
+#: model:ir.model.fields,field_description:iwel.field_product_template__c27
+msgid "Assortiment normal (NIV GAMME)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c28
+#: model:ir.model.fields,field_description:iwel.field_product_template__c28
+msgid "Assortiment élargi (NIV GAMME)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wassorart
+msgid "Assortissement articles"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wassorcli
+msgid "Assortissement clients"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_attachment_count
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_attachment_count
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_attachment_count
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_attachment_count
+msgid "Attachment Count"
+msgstr "Compte des pièces jointes"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "BON DE RECEPTION DE LIVRAISON"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "BROUILLON"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Back"
+msgstr "Retour"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Backspace"
+msgstr "Retour arrière"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:iwel.report_etiquette_temp
+#: model_terms:ir.ui.view,arch_db:iwel.report_etiquettel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+#, python-format
+msgid "Barcode"
+msgstr "Code-barres"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Barcode Scanner"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "Bon de commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.report,name:iwel.report_reception
+msgid "Bon de réception"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "CAISSE : 02"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_table_form
+msgid "CHAMPS"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "CHANGE"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: iwel
+#: model:ir.module.category,description:iwel.module_iwel_category
+msgid "Catégorie IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__ligne_champs
+msgid "Champ"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__odoo
+msgid "Champ ODOO"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__champoblig
+msgid "Champoblig"
+msgstr "Champs obligatoire"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_champ
+msgid "Champs IWEL"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Change"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Change:"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c39
+#: model:ir.model.fields,field_description:iwel.field_product_template__c39
+msgid "Circuit d’approvisionnement"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "City"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Client Screen Connected"
+msgstr "Écran client connecté"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Client Screen Disconnected"
+msgstr "Écran client déconnecté"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Client Screen Warning"
+msgstr "Avertissement d'écran client"
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_etiquette
+msgid "Cliquer ici pour ajouter des etiquettes"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_commande
+msgid "Cliquer ici pour ajouter les commandes"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_fournisseur
+msgid "Cliquer ici pour ajouter les fournisseurs"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_paramftp
+msgid "Cliquer ici pour ajouter les parametres FTP"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_wnomray
+msgid "Cliquer ici pour ajouter les rayons"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_reception
+msgid "Cliquer ici pour ajouter les receptions"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_gestfichier
+msgid "Cliquer ici pour ajouter un gestfichier"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.actions.act_window,help:iwel.action_iwel_table
+msgid "Cliquer ici pour ajouter une table"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c4
+msgid "Clé secondaire"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__c1
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Code"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c2
+msgid "Code Article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__codebare
+msgid "Code Barre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__codedel
+#: model:ir.model.fields,field_description:iwel.field_product_template__codedel
+msgid "Code Del"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__delfi
+msgid "Code Delfi"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c11
+msgid "Code EAN13"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c31
+#: model:ir.model.fields,field_description:iwel.field_product_template__c31
+msgid "Code Etiquette EAN"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__codef
+msgid "Code Fourn."
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__c2
+msgid "Code Langue"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_category__codeparent
+msgid "Code Parent catégorie"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__codep
+msgid "Code Produit"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c18
+msgid "Code Promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__c1
+msgid "Code Rayon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c17
+#: model:ir.model.fields,field_description:iwel.field_product_product__c13
+#: model:ir.model.fields,field_description:iwel.field_product_template__c13
+msgid "Code TVA"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__c1
+msgid "Code Theme Promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__idtheme
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__idtheme
+msgid "Code Thème promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c45
+#: model:ir.model.fields,field_description:iwel.field_product_template__c45
+msgid "Code Univers"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__c2
+msgid "Code Version"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c9
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__idarticle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c1
+msgid "Code article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c3
+#: model:ir.model.fields,field_description:iwel.field_product_product__refuniq
+#: model:ir.model.fields,field_description:iwel.field_product_template__c3
+#: model:ir.model.fields,field_description:iwel.field_product_template__refuniq
+msgid "Code article Domaxel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c11
+msgid "Code article remplacecement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__idassort
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__c1
+msgid "Code assortissement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__barcode
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__barcode
+msgid "Code barre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__barcode2
+#: model:ir.model.fields,field_description:iwel.field_product_template__barcode2
+msgid "Code barre 2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__barcode3
+#: model:ir.model.fields,field_description:iwel.field_product_template__barcode3
+msgid "Code barre 3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c19
+msgid "Code catalogue"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_category__code
+msgid "Code catégorie"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__c1
+msgid "Code client"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__c1
+msgid "Code contremarque"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c10
+msgid "Code de désactivation"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c15
+msgid "Code devise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c6
+msgid "Code disponibilité"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c60
+#: model:ir.model.fields,field_description:iwel.field_product_template__c60
+msgid "Code eco produit"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "Code four."
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c6
+msgid "Code fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c4
+#: model:ir.model.fields,field_description:iwel.field_product_template__c4
+msgid "Code fournisseur Domaxel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__codeimport
+#: model:ir.model.fields,field_description:iwel.field_product_template__codeimport
+msgid "Code import"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c7
+#: model:ir.model.fields,field_description:iwel.field_product_template__c7
+msgid "Code marque propre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c33
+#: model:ir.model.fields,field_description:iwel.field_product_template__c33
+msgid "Code modèle"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c25
+#: model:ir.model.fields,field_description:iwel.field_product_template__c25
+msgid "Code nomenclature Domaxel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__c2
+msgid "Code offre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__codep
+msgid "Code produit"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c5
+#: model:ir.model.fields,field_description:iwel.field_product_product__c24
+#: model:ir.model.fields,field_description:iwel.field_product_template__c24
+msgid "Code secteur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c10
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__c2
+msgid "Code tarif"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__coeff
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__coeff
+#: model:ir.model.fields,field_description:iwel.field_product_category__coeff
+#: model:ir.model.fields,field_description:iwel.field_product_product__coeff
+#: model:ir.model.fields,field_description:iwel.field_product_template__coeff
+msgid "Coeff(%)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c22
+msgid "Coefficient 1 de remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c24
+msgid "Coefficient 2 de remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c26
+msgid "Coefficient 3 de remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__coeff
+msgid "Coefficient WELDOM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c16
+#: model:ir.model.fields,field_description:iwel.field_product_template__c16
+msgid "Coefficient de 1ere remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c18
+#: model:ir.model.fields,field_description:iwel.field_product_template__c18
+msgid "Coefficient de 2eme remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c20
+#: model:ir.model.fields,field_description:iwel.field_product_template__c20
+msgid "Coefficient de 3eme remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c25
+msgid "Colis"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__idcommande
+msgid "Commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.report,name:iwel.report_commande
+msgid "Commande Fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__ligne_commande
+#: model:ir.ui.menu,name:iwel.menu_iwel_commande
+msgid "Commandes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_commande
+msgid "Commandes IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_comliv
+msgid "Commandes receptions"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Comment"
+msgstr "Commentaires"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c20
+msgid "Condition reglement Ass"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c18
+msgid "Condition reglement Eng"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Connecting to Proxy"
+msgstr "Connexion au proxy"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c1
+msgid "Contremarque"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Country"
+msgstr "Pays"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__cout
+#: model:ir.model.fields,field_description:iwel.field_product_template__cout
+msgid "Coût Weldom"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "Create a command"
+msgstr "Créer un bon de commande"
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.create_po_action
+msgid "Create a purchase order"
+msgstr "Créer un bon de commande"
+
+#. module: iwel
+#: model:ir.actions.server,name:iwel.create_inv_act
+msgid "Create purchase"
+msgstr "Créer un bon de commande"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__create_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__create_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Customer"
+msgstr "Client"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__access_url
+#: model:ir.model.fields,help:iwel.field_iwel_commande__access_url
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__access_url
+#: model:ir.model.fields,help:iwel.field_iwel_reception__access_url
+msgid "Customer Portal URL"
+msgstr "URL du portail client"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "DEMARRER RECEPTION"
+msgstr "Démarrer réception"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "DESC. FONC"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "DONT TVA"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__date
+msgid "Date"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c9
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c9
+msgid "Date Application"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c3
+msgid "Date BL"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Date d'échéance"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__date
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__date
+#: model:ir.model.fields,field_description:iwel.field_product_product__c1
+#: model:ir.model.fields,field_description:iwel.field_product_template__c1
+msgid "Date de création"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Date de facturation"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c58
+#: model:ir.model.fields,field_description:iwel.field_product_template__c58
+msgid "Date de fin de vie"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c11
+msgid "Date de livraison 1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c12
+msgid "Date de livraison 2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c13
+msgid "Date de livraison 3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c14
+msgid "Date de livraison 4"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c15
+msgid "Date de livraison 5"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c16
+msgid "Date de livraison 6"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c2
+#: model:ir.model.fields,field_description:iwel.field_product_template__c2
+msgid "Date de modification"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__datereception
+msgid "Date de réception"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c21
+msgid "Date reglement Ass"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c19
+msgid "Date reglement Eng"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c26
+msgid "Date règlement1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c27
+msgid "Date règlement2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c28
+msgid "Date règlement3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c29
+msgid "Date règlement4"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c30
+msgid "Date règlement5"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c31
+msgid "Date règlement6"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c46
+#: model:ir.model.fields,field_description:iwel.field_product_template__c46
+msgid "Date visibilité article"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Debug Window"
+msgstr "Fenêtre de debug"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c18
+msgid "Delai livraison"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Delete"
+msgstr "Supprimer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Delete Paid Orders"
+msgstr "Supprimer les commandes payées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Delete Unpaid Orders"
+msgstr "Supprimer les commandes non payées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Delete order"
+msgstr "Supprimer une commande"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_delfi_tree
+msgid "Delfi"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c16
+msgid "Dernière BFA"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wlibplus
+msgid "Desc fonctionnelle"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wlibtec
+msgid "Desc technique"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__description
+msgid "Description"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__c4
+msgid "Description Fonctionnelle"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__c4
+msgid "Description Technique"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c17
+#: model:ir.model.fields,field_description:iwel.field_product_template__c17
+msgid "Deuxième quantité pour remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__currency_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c12
+msgid "Devise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c3
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c3
+msgid "Devise prix de base"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c5
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c5
+msgid "Devise prix de cession"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Disc"
+msgstr "Rem."
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Discount:"
+msgstr "Remise:"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Discounts"
+msgstr "Remises"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__display_name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__display_name
+msgid "Display Name"
+msgstr "Afficher Nom"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c22
+msgid "Disponibilité commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_delfi
+msgid "Donnees DELFI"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Download Paid Orders"
+msgstr "Télécharger des commandes payées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Download Unpaid Orders"
+msgstr "Télécharger des commandes non payées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Download error"
+msgstr "Télécharger les erreurs"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Due"
+msgstr "Dûe"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c6
+msgid "Début Promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c14
+msgid "Début contrat"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c4
+msgid "Début prépromo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c8
+msgid "Début vente magasin"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__deciwel
+msgid "Décimal WELDOM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c38
+#: model:ir.model.fields,field_description:iwel.field_product_template__c38
+msgid "Délai de garantie"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c4
+msgid "Dénomination"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c5
+#: model:ir.model.fields,field_description:iwel.field_product_template__c5
+msgid "Département d'activité"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c5
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c10
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Désignation"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c11
+#: model:ir.model.fields,field_description:iwel.field_product_template__c11
+msgid "Désignation article"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "EAN"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c23
+#: model:ir.model.fields,field_description:iwel.field_product_template__c23
+msgid "EAN 13"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_lignereception__comment__endom
+msgid "ENDM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__ecartcom
+msgid "Ec.Com"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__ecart
+msgid "Ec.Liv"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Ecart Cmde"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Ecart Liv."
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Edit"
+msgstr "Éditer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Electronic Scale"
+msgstr "Vente électronique"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c12
+#, python-format
+msgid "Email"
+msgstr "Courriel"
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_reception__state__attente
+msgid "En attente"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_reception__state__encours
+msgid "En cours"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_reception__state__enstock
+msgid "En stock"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c42
+#: model:ir.model.fields,field_description:iwel.field_product_template__c42
+msgid "Enseigne"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wlibelleversion
+msgid "Entete de promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wpent
+msgid "Entete promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__repentree
+msgid "Entree des fichiers"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Equivalence en USD ("
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__state
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__state
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__state
+msgid "Etat"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__idetiquette
+msgid "Etiquette"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.report,name:iwel.report_etiquette
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__ligne_etiquette
+#: model:ir.ui.menu,name:iwel.menu_iwel_etiquettes
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_etiquette_form
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_etiquette_search
+msgid "Etiquettes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_etiquette
+msgid "Etiquettes IWEL"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"Euros\n"
+"                                <br/>"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid ""
+"Euros\n"
+"                                <br/>\n"
+"                                <strong>Total TTC:</strong>"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c41
+#: model:ir.model.fields,field_description:iwel.field_product_template__c41
+msgid "Exclusif à une enseigne"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.constraint,message:iwel.constraint_product_category_codeunique
+#: model:ir.model.constraint,message:iwel.constraint_product_template_reference
+msgid "unique"
+msgstr "Existe deja"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Export Paid Orders"
+msgstr "Exporter les commandes payées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Export Unpaid Orders"
+msgstr "Exporter les commandes non payées"
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_table__mode__exporter
+msgid "Exporter"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_form
+msgid "FAMILLES"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.report,name:iwel.report_facture_rapport
+msgid "Facture BRICO"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wnomfam
+#: model:ir.model.fields,field_description:iwel.field_product_product__c54
+#: model:ir.model.fields,field_description:iwel.field_product_product__idfamille
+#: model:ir.model.fields,field_description:iwel.field_product_template__c54
+#: model:ir.model.fields,field_description:iwel.field_product_template__idfamille
+msgid "Famille"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__ligne_famille
+msgid "Familles"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__fichier
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__fichier
+msgid "Fichier"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c21
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c26
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c25
+#: model:ir.model.fields,field_description:iwel.field_product_product__c51
+#: model:ir.model.fields,field_description:iwel.field_product_template__c51
+msgid "Filler"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c7
+msgid "Fin Promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c15
+msgid "Fin contrat"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c9
+msgid "Fin vente magasin"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Finished Importing Orders"
+msgstr "Commandes d'importations terminées"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_follower_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_follower_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_follower_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_channel_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_channel_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_channel_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Abonnés (Canaux)"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_partner_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_partner_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_partner_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__format
+msgid "Format"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c2
+msgid "Forme juridique"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__idfournisseur
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__fournisseur
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c3
+msgid "Fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__idfournisseur
+#: model:ir.model.fields,field_description:iwel.field_product_template__idfournisseur
+msgid "Fournisseur Weldom"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_parametres_fournisseurs
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_fournisseur_tree
+msgid "Fournisseurs"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_fournisseur
+msgid "Fournisseurs Weldom"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__frais
+msgid "Frais WELDOM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__frais
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__frais
+#: model:ir.model.fields,field_description:iwel.field_product_category__frais
+#: model:ir.model.fields,field_description:iwel.field_product_product__frais
+#: model:ir.model.fields,field_description:iwel.field_product_template__frais
+msgid "Frais(%)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__c1
+msgid "GEN CODE EAN"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wgencode
+msgid "GEN Code"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "GENCODS"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Gencode"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_gestfichier
+msgid "Generation"
+msgstr "Génération"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_gestfichier
+msgid "Gestion des fichiers"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c24
+msgid "Gestion du Réassort"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Hardware Events"
+msgstr "Événements matériels"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Hardware Status"
+msgstr "Status matériels"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__hauteur
+msgid "Hauteur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__hauteurgencode
+msgid "Hauteur Gencode"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_table__periodicite__semaine
+msgid "Hebdomadaire"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Home"
+msgstr "Acceuil"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__id
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__id
+msgid "ID"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "IDENT.:"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_form
+msgid "IMPORTER"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_form
+msgid "IMPORTER BL.ZIP"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "INFOS WELDOM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.module.category,name:iwel.module_iwel_category
+#: model:ir.ui.menu,name:iwel.menu_iwel
+msgid "IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_exception_icon
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_exception_icon
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_exception_icon
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_exception_icon
+msgid "Icon"
+msgstr "Icône"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__activity_exception_icon
+#: model:ir.model.fields,help:iwel.field_iwel_commande__activity_exception_icon
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__activity_exception_icon
+#: model:ir.model.fields,help:iwel.field_iwel_reception__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icône pour indiquer une activité d'exception."
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c13
+msgid "Identifiant CEE"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__idrayon
+#: model:ir.model.fields,field_description:iwel.field_product_template__idrayon
+msgid "Idrayon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_needaction
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_unread
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_needaction
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_unread
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_needaction
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_unread
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_needaction
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_has_error
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_has_sms_error
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_has_error
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_has_sms_error
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_has_error
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_has_sms_error
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_has_error
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si actif, certains messages ont une erreur de livraison."
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c32
+#: model:ir.model.fields,field_description:iwel.field_product_template__c32
+msgid "Image"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Import Orders"
+msgstr "Importer des commandes"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__ieh
+msgid "Interligne horizontal"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__iev
+msgid "Interligne vertical"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Invalid product lot"
+msgstr "Lot d'article invalide"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_is_follower
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_is_follower
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_is_follower
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__is_invoiced
+msgid "Is invoiced"
+msgstr "Est facturé"
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_table__periodicite__jour
+msgid "Journalier"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "LE"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c9
+#: model:ir.model.fields,field_description:iwel.field_product_template__c9
+msgid "Langue"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_table____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec____last_update
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__write_uid
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__write_date
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__c4
+msgid "Libelle court offre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__c3
+msgid "Libelle offre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__libelle
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__libelle
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c4
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c2
+msgid "Libellé"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__c3
+msgid "Libellé Version"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__c2
+msgid "Libellé assortissement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c10
+#: model:ir.model.fields,field_description:iwel.field_product_template__c10
+msgid "Libellé caisse"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c12
+#: model:ir.model.fields,field_description:iwel.field_product_template__c12
+msgid "Libellé long"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_purchase_order_line__idreception
+msgid "Ligne de reception"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_lignecommande
+#: model:ir.model,name:iwel.model_iwel_lignereception
+msgid "Lignes de reception IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_ligneetiquette
+msgid "Lignes etiquettes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_liste
+msgid "Liste d'étiquettes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_etiquette
+msgid "Liste des étiquettes"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Loading"
+msgstr "Chargement"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Logo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c5
+msgid "Logo de marque"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c22
+msgid "Longeur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__longeurgencode
+msgid "Longeur Gencode"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__longueur
+msgid "Longueur"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_form
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "MISE A JOUR PRIX"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "MISE EN STOCK"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_lignereception__comment__manquant
+msgid "MQ"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_main_attachment_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_main_attachment_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_main_attachment_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__margeg
+msgid "Marge Gauche"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__margeh
+msgid "Marge Haut"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__marge
+#: model:ir.model.fields,field_description:iwel.field_product_product__margeb
+#: model:ir.model.fields,field_description:iwel.field_product_template__marge
+#: model:ir.model.fields,field_description:iwel.field_product_template__margeb
+msgid "Marge(%)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wmarpro
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__c2
+msgid "Marque"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c8
+#: model:ir.model.fields,field_description:iwel.field_product_template__c8
+msgid "Marque propre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_table__periodicite__mois
+msgid "Mensuel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_has_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_has_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_has_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur d'envoi du message"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c35
+#: model:ir.model.fields,field_description:iwel.field_product_template__c35
+msgid "Mesure de l’article exprimé en unité légale"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Method"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c17
+msgid "Minimum commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c14
+msgid "Minimum vente"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__mode
+msgid "Mode"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Montant"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Montant H.T"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Montant dû"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__password
+msgid "Mot de passe FTP"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__comment
+msgid "Motif"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "N/A"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorart__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorcli__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wassorti__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibelleversion__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibtec__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wmarpro__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspecmq__name
+#, python-format
+msgid "Name"
+msgstr "Nom"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c3
+msgid "Nature article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c3
+msgid "Nature thème"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__nbaj
+msgid "Nbaj"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "New order"
+msgstr "Nouvelle commande"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_date_deadline
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_date_deadline
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_date_deadline
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Date limite de l'activité à venir"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_summary
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_summary
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_summary
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_summary
+msgid "Next Activity Summary"
+msgstr "Résumé d'activité suivant"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_type_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_type_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_type_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_type_id
+msgid "Next Activity Type"
+msgstr "Type d'activités à venir"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Next Order"
+msgstr "Prochaine commande"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__name
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__name
+msgid "Nom"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__nomcol
+msgid "Nom Colonne"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__c3
+msgid "Nom famille"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c7
+msgid "Nom fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__nomp
+msgid "Nom produit"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomray__c2
+msgid "Nom rayon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__nbgen
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__nb
+msgid "Nombre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__nbh
+msgid "Nombre Horizontal"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__nbv
+msgid "Nombre Vertical"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__nbchamp
+msgid "Nombre de champs"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__nbligne
+msgid "Nombre de lignes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c10
+msgid "Nombre de livraisons"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c22
+#: model:ir.model.fields,field_description:iwel.field_product_template__c22
+msgid "Nombre de sous unité consommateur dans l’article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__nb
+msgid "Nombre opérations"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c24
+msgid "Nomenclature"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_lignereception__state__nonvalid
+msgid "Non validé"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "None"
+msgstr "Aucun"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c8
+msgid "Num Page Catalogue"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c9
+msgid "Num version catalogue"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c23
+msgid "Num version et page"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_needaction_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_needaction_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_needaction_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_has_error_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_has_error_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_has_error_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_needaction_counter
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_needaction_counter
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_needaction_counter
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages exigeant une action"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_has_error_counter
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_has_error_counter
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_has_error_counter
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec des erreurs d'envoi"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__message_unread_counter
+#: model:ir.model.fields,help:iwel.field_iwel_commande__message_unread_counter
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__message_unread_counter
+#: model:ir.model.fields,help:iwel.field_iwel_reception__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c1
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__idcollection
+msgid "Numero Collection"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_typesoffres__c1
+msgid "Numéro enregistrement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__numbl
+msgid "N° BL"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "N° commande:"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c62
+#: model:ir.model.fields,field_description:iwel.field_product_template__c62
+msgid "N° fournisseur réel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c5
+msgid "N° ligne"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Odoo V.12"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Ok"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Open Cashbox"
+msgstr "Ouvrir la caisse"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Order"
+msgstr "Commande"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__po_ids
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+#, python-format
+msgid "Orders"
+msgstr "Commandes"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__nb_pos
+msgid "Orders count"
+msgstr "Nombre de bon de commandes"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "P.U. net H.T"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "PROMOS DIRECTES"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "PROMOTIONS"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "PU"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c16
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "PVI"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c18
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c7
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c7
+msgid "PVI TTC"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c8
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c8
+msgid "PVI TTC EURO"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c19
+msgid "PVI unité légale"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c20
+msgid "PVI unité légale en Euro"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_paramftp
+msgid "Parametres du FTP"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_parametres
+msgid "Paramètres"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_parametres_ftp
+msgid "Paramètres FTP"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_parametres_tables
+msgid "Paramètres Tables"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Partner logo"
+msgstr "Logo du partenaire"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Pay"
+msgstr "Payer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Payment"
+msgstr "Paiement"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Payments:"
+msgstr "Paiements"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c36
+#: model:ir.model.fields,field_description:iwel.field_product_template__c36
+msgid "Pays d’origine "
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c7
+msgid "Picto Garantie"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Picture"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c5
+msgid "Pin prépromo"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Please select a payment method."
+msgstr "Veuillez choisir un moyen de paiement."
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c37
+#: model:ir.model.fields,field_description:iwel.field_product_template__c37
+msgid "Poids brut de l’unité de vente"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__access_url
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__access_url
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__access_url
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__access_url
+msgid "Portal Access URL"
+msgstr "URL d'accès au portail"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__position
+msgid "Position"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__positionname
+msgid "Position name"
+msgstr "Nom de la position"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__positionref
+msgid "Position ref unique"
+msgstr "Ref de position unique"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Postcode"
+msgstr "Code postal"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c15
+#: model:ir.model.fields,field_description:iwel.field_product_template__c15
+msgid "Première quantité pour remise"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Price"
+msgstr "Prix"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_product_product__list_price
+#: model:ir.model.fields,help:iwel.field_product_template__list_price
+msgid "Price at which the product is sold to customers."
+msgstr "Prix ​​auquel le produit est vendu aux clients."
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Price list"
+msgstr "Liste de prix"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Pricelist"
+msgstr "Liste de prix"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Print Invoice"
+msgstr "Imprimer facture"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Print Receipt"
+msgstr "Imprimer reçu"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_ligneetiquette__prix
+msgid "Prix"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c5
+msgid "Prix 1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c7
+msgid "Prix 2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c9
+msgid "Prix 3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c17
+msgid "Prix Hors engagement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__pachat
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c15
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c4
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c4
+msgid "Prix achat"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Prix d'achat"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__prixbase_brico
+#: model:ir.model.fields,field_description:iwel.field_product_template__prixbase_brico
+msgid "Prix de base(BRICO)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__prixbase
+#: model:ir.model.fields,field_description:iwel.field_product_template__prixbase
+msgid "Prix de base(Euro)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__prixbase_dj
+#: model:ir.model.fields,field_description:iwel.field_product_template__prixbase_dj
+msgid "Prix de base(WELDOM)"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c6
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c6
+msgid "Prix de cession"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__pvente
+msgid "Prix de vente"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c16
+msgid "Prix engagement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c27
+msgid "Prix permanent"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_product_category
+msgid "Product Category"
+msgstr "Catégorie d'article"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_product_template
+msgid "Product Template"
+msgstr "Modèle d'article"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Product image"
+msgstr "Image article"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__idproduit
+msgid "Produit"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wpart
+msgid "Promo article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wpdirect
+msgid "Promo direct"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Proxy Connected"
+msgstr "Proxy connecté"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Proxy Disconnected"
+msgstr "Proxy déconnecté"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Proxy Warning"
+msgstr "Avertissement de proxy"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_purchase_order
+msgid "Purchase Order"
+msgstr "Commande fournisseur"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ligne de commande d'achat"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__periodicite
+msgid "Périodicité"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "QTE"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c14
+msgid "Qte BL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c13
+msgid "Qte Com"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Qte cmde"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Qte reçue BL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__qterecue
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Qte reçue Bon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__endommage
+msgid "Qte reçue End"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Qte reçue End."
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Qty"
+msgstr "Qté"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "Qté"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c21
+msgid "Qté 1 donnant une remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c23
+msgid "Qté 2 donnant une remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c25
+msgid "Qté 3 donnant une remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c3
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Quantité"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c4
+msgid "Quantité 1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c6
+msgid "Quantité 2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpdirect__c8
+msgid "Quantité 3"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c7
+msgid "Quantité disponible"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c14
+#: model:ir.model.fields,field_description:iwel.field_product_template__c14
+msgid "Quantité minimum de commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c11
+msgid "Quantités préconisées M1"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c12
+msgid "Quantités préconisées M2"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c13
+msgid "Quantités préconisées M3"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "RECEPTIONNER TOUT"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_tree
+msgid "RECEPTIONS"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_form
+msgid "RECEVOIR"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "RENDU EN ESPECES :"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c3
+msgid "Raison sociale"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wnomray
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__rayon
+#: model:ir.model.fields,field_description:iwel.field_iwel_wnomfam__idrayon
+#: model:ir.model.fields,field_description:iwel.field_product_product__c53
+#: model:ir.model.fields,field_description:iwel.field_product_template__c53
+msgid "Rayon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_parametres_rayons
+msgid "Rayons"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Read Weighing Scale"
+msgstr "Lire la balance"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "Receptionner"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c4
+msgid "Ref Commande"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c8
+msgid "Ref fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_gestfichier__name
+msgid "Reference"
+msgstr "Référence"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_reception_art
+msgid "Reference Fournisseur"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Refresh Display"
+msgstr "Actualiser l'affichage"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c20
+msgid "Remise globale"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c22
+msgid "Remise packaging"
+msgstr "Remise de l'emballage"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Remise:"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Remove"
+msgstr "Supprimer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__activity_user_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__activity_user_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__activity_user_id
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__activity_user_id
+msgid "Responsible User"
+msgstr "Responsable"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid ""
+"Rue 15.15 Djibouti - Tel: 21 35 15 45 - Email: brico@brico.com\n"
+"                        <br/>\n"
+"                        Compte SALAM BANK N°141245411; Compte EAB N°"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__idpicking
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__idpicking
+msgid "Réception"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_iwel_reception
+msgid "Réceptions"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__name
+msgid "Référence"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c6
+#: model:ir.model.fields,field_description:iwel.field_product_template__c6
+msgid "Référence article fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__reffour
+msgid "Référence fournisseur"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__repiwel
+msgid "Répertoire IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_has_sms_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_has_sms_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_has_sms_error
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erreur d'envoi SMS"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c50
+#: model:ir.model.fields,field_description:iwel.field_product_template__c50
+msgid "Saison. Non commandable"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__list_price
+#: model:ir.model.fields,field_description:iwel.field_product_template__list_price
+msgid "Sales Price"
+msgstr "Prix de vente"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Scan"
+msgstr "Scan"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Scan EAN-13"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Search Customers"
+msgstr "Chercher Clients"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Search Products"
+msgstr "Chercher Articles"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c23
+msgid "Secteur achat"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__access_token
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__access_token
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__access_token
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__access_token
+msgid "Security Token"
+msgstr "Jeton de sécurité"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c56
+#: model:ir.model.fields,field_description:iwel.field_product_template__c56
+msgid "Segment"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Select Customer"
+msgstr "Choisir client"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Send by email"
+msgstr "Envoyer un email"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__sequence
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__sequencecom
+msgid "Sequence commandes Weldom"
+msgstr "Sequence commandes Weldom"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Serial/Lot Number"
+msgstr "Numéro de série / lot"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Served by"
+msgstr "Servi par"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__serveur
+msgid "Serveur FTP"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Session ids:"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Set Weight"
+msgstr "Définir le poids"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Set fiscal position"
+msgstr "Définir la position fiscale"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Shopping cart"
+msgstr "Panier"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Skip"
+msgstr "Passer"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Slash"
+msgstr "Sabrer"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__famille
+msgid "Sous rayon"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c55
+#: model:ir.model.fields,field_description:iwel.field_product_template__c55
+msgid "Sous-famille"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c57
+#: model:ir.model.fields,field_description:iwel.field_product_template__c57
+msgid "Sous-segment"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__activity_state
+#: model:ir.model.fields,help:iwel.field_iwel_commande__activity_state
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__activity_state
+#: model:ir.model.fields,help:iwel.field_iwel_reception__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date d'activité est aujourd'hui\n"
+"Planifiée : activités futures"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wgencode__c3
+msgid "Statut"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c43
+#: model:ir.model.fields,field_description:iwel.field_product_template__c43
+msgid "Statut de l’article"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__stock
+msgid "Stock"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__stockdelfi
+#: model:ir.model.fields,field_description:iwel.field_product_template__stockdelfi
+msgid "Stock Delfi"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c61
+#: model:ir.model.fields,field_description:iwel.field_product_template__c61
+msgid "Stock non garanti (STKNG)"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Street"
+msgstr "Rue"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Subtotal"
+msgstr "Sous total"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Successfully  imported"
+msgstr "Importé avec succès"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Successfully imported"
+msgstr "Importé avec succès"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__supcom
+msgid "Supprimer commande"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Synchronisation Connected"
+msgstr "Synchronisation connectée"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Synchronisation Connecting"
+msgstr "Connection de la synchronisation"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Synchronisation Disconnected"
+msgstr "Déconnexion de la synchronisation"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Synchronisation Error"
+msgstr "Erreur de synchronisation"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "TARIFS"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "TICKET:"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "TOTAL"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "TOTAL A PAYER"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "TOTAL H.T.V.A"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+#, python-format
+msgid "TOTAL TTC"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_champ__idtable
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__table
+msgid "Table"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_table
+msgid "Tables IWEL"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wtarif
+msgid "Tarif"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c19
+msgid "Tarif base"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "Tarif direct"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wtarifspec
+msgid "Tarif spec"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wtarifspecmq
+msgid "Tarif spec marque"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_res_company__tauxdevise
+msgid "Taux devise"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Tax ID"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Taxes:"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Tel:"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Tendered"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_reception__state__termine
+msgid "Terminée"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid ""
+"The Point of Sale could not find any product, client, employee\n"
+"                    or action associated with the scanned barcode."
+msgstr ""
+"Le point de vente n'a trouvé aucun produit, client, employé \n"
+"                    ou action associée au code-barres scanné."
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid ""
+"There are pending operations that could not be saved into the database, are "
+"you sure you want to exit?"
+msgstr ""
+"Des opérations en attente n'ont pas pu être enregistrées dans la base de "
+"données. Voulez-vous vraiment quitter?"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Tip"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__nb
+msgid "Total"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Total T.V.A."
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Total Taxes"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__nbnonvalide
+msgid "Total non validé"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__nbvalide
+msgid "Total validé"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Total:"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c17
+msgid "Tous clients"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__idtransfert
+msgid "Transfert"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c47
+#: model:ir.model.fields,field_description:iwel.field_product_template__c47
+msgid "Transmission aux adhérents"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_table__periodicite__trimestre
+msgid "Trimestriel"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c19
+#: model:ir.model.fields,field_description:iwel.field_product_template__c19
+msgid "Troisième quantité pour remise"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_delfi__type
+msgid "Type"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c52
+#: model:ir.model.fields,field_description:iwel.field_product_template__c52
+msgid "Type PSG"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c59
+#: model:ir.model.fields,field_description:iwel.field_product_template__c59
+msgid "Type de remplacement"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__activity_exception_decoration
+#: model:ir.model.fields,help:iwel.field_iwel_commande__activity_exception_decoration
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__activity_exception_decoration
+#: model:ir.model.fields,help:iwel.field_iwel_reception__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type d'activité d'exception enregistrée"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_articlesoffres__idtype
+msgid "Type offre"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c32
+msgid "Type promo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c11
+msgid "Télécopie"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c10
+msgid "Téléphone"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "UE Mini"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Undo"
+msgstr "Annuler"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c9
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c20
+msgid "Unité de prix"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c21
+#: model:ir.model.fields,field_description:iwel.field_product_template__c21
+msgid "Unité de prix à la cession"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__c21
+msgid "Unité emballage"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignecommande__c10
+msgid "Unité emballage min"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c34
+#: model:ir.model.fields,field_description:iwel.field_product_template__c34
+msgid "Unité légale"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Unknown Barcode"
+msgstr "Code barre inconnu"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_unread
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_unread
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_unread
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__message_unread_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__message_unread_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__message_unread_counter
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_paramftp__user
+msgid "Utilisateur FTP"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_commande_form
+msgid "VALIDER COMMANDE"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "VAT:"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_table__valdef
+msgid "Valdef"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Valid product lot"
+msgstr "Lot d'article valide"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Validate"
+msgstr "Valider"
+
+#. module: iwel
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_commande__state__valide
+#: model:ir.model.fields.selection,name:iwel.selection__iwel_lignereception__state__valide
+msgid "Validée"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_commande_test
+msgid "Valo"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c9
+msgid "Ville"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c63
+#: model:ir.model.fields,field_description:iwel.field_product_template__c63
+msgid "Volume"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "Vos références"
+msgstr ""
+
+#. module: iwel
+#: model:ir.ui.menu,name:iwel.menu_weldom
+msgid "WELDOM"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_comliv__website_message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_commande__website_message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_etiquette__website_message_ids
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__website_message_ids
+msgid "Website Messages"
+msgstr "Messages du site web"
+
+#. module: iwel
+#: model:ir.model.fields,help:iwel.field_iwel_comliv__website_message_ids
+#: model:ir.model.fields,help:iwel.field_iwel_commande__website_message_ids
+#: model:ir.model.fields,help:iwel.field_iwel_etiquette__website_message_ids
+#: model:ir.model.fields,help:iwel.field_iwel_reception__website_message_ids
+msgid "Website communication history"
+msgstr "Historique de communication du site web"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Weighing"
+msgstr "Pesée"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "With a"
+msgstr "Avec un"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "Your shopping cart is empty"
+msgstr "Votre panier est vide"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "ZIP"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarif__c2
+#: model:ir.model.fields,field_description:iwel.field_iwel_wtarifspec__c2
+msgid "Zone de prix"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__c64
+#: model:ir.model.fields,field_description:iwel.field_product_template__c64
+msgid "ag.codelmf_generalites à destination du WS OMS"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "at"
+msgstr "à"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "belong to another session:"
+msgstr "appartient à une autre session"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "caps lock"
+msgstr "verrouillage des majuscules"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_table_form
+msgid "champ"
+msgstr "Champ"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "close"
+msgstr "fermer"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpart__c28
+msgid "col 28"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wpent__c33
+msgid "col 33"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_wlibplus__c5
+msgid "col 5"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_fournisseur__c23
+msgid "col23"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_commande
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_commande_form
+msgid "commande"
+msgstr "Commande"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "delete"
+msgstr "supprimer"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "desc"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "discount"
+msgstr "remise"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_etiquette_form
+msgid "etiquette"
+msgstr ""
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_form
+msgid "famille"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__ligne_fonc
+#: model:ir.model.fields,field_description:iwel.field_product_template__ligne_fonc
+msgid "fonction"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_fournisseur
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_fournisseur_form
+msgid "fournisseur"
+msgstr "Fournisseur"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_fournisseur_search
+msgid "fournisseurs"
+msgstr "Fournisseurs"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "gencod"
+msgstr "Gencod"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__ligne_gencod
+#: model:ir.model.fields,field_description:iwel.field_product_template__ligne_gencod
+msgid "gencode"
+msgstr "Gencode"
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_gestfichier
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_form
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_gestfichier_tree
+msgid "gestfichier"
+msgstr "Gestfichier"
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_articlesoffres
+msgid "iwel.articlesoffres"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_typesoffres
+msgid "iwel.typesoffres"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_wassorti
+msgid "iwel.wassorti"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "paid orders"
+msgstr "commandes payées"
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_paramftp
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_commande_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_commande_tree
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_etiquette_tree
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_paramftp_form
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_paramftp_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_paramftp_tree
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_tree
+msgid "paramftp"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__ligne_promo
+#: model:ir.model.fields,field_description:iwel.field_product_template__ligne_promo
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "promo"
+msgstr "Promo"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__ligne_promod
+#: model:ir.model.fields,field_description:iwel.field_product_template__ligne_promod
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "promod"
+msgstr "Promod"
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_reception
+#: model:ir.model.fields,field_description:iwel.field_iwel_lignereception__idreception
+#: model:ir.model.fields,field_description:iwel.field_purchase_order__idreception
+#: model_terms:ir.ui.view,arch_db:iwel.create_po_tree
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_reception_form
+msgid "reception"
+msgstr "Réception"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_iwel_reception__ligne_reception
+msgid "receptions"
+msgstr ""
+
+#. module: iwel
+#: model:ir.model,name:iwel.model_iwel_reception
+msgid "receptions IWEL"
+msgstr ""
+
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "return"
+msgstr "retour"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "shift"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "tab"
+msgstr ""
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_table
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_table_form
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_table_search
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_table_tree
+msgid "table"
+msgstr "Table"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.view_iwel_article_form
+msgid "tarif"
+msgstr "Tarif"
+
+#. module: iwel
+#: model:ir.model.fields,field_description:iwel.field_product_product__ligne_tarif
+#: model:ir.model.fields,field_description:iwel.field_product_template__ligne_tarif
+msgid "tarifs"
+msgstr ""
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "unpaid orders"
+msgstr "commande impayées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "unpaid orders could not be imported"
+msgstr "les commandes impayées ne peuvent pas être importées"
+
+#. module: iwel
+#. openerp-web
+#: code:addons/iwel/static/src/xml/pos.xml:0
+#, python-format
+msgid "were duplicates of existing orders"
+msgstr "étaient des doublons de commandes existantes"
+
+#. module: iwel
+#: model:ir.actions.act_window,name:iwel.action_iwel_wnomray
+#: model_terms:ir.ui.view,arch_db:iwel.iwel_wnomray_form
+msgid "wnomray"
+msgstr "Wnomray"
+
+#. module: iwel
+#: model_terms:ir.ui.view,arch_db:iwel.report_facture_test
+msgid "à la somme de"
+msgstr ""

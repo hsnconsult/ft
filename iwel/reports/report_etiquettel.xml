@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="minimal_layout_inherit" inherit_id="web.minimal_layout">
+        <xpath expr="//head" position="inside">
+            <link rel='stylesheet' href="/iwel/static/src/css/iwel.css"/>
+        </xpath>
+    </template>
+    <template id="report_etiquettel">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                        <!--                                                <div class="row">-->
+                        <!--                                                    <t t-esc="docs" />-->
+                        <!--                                                </div>-->
+                        <t t-set="break_point" t-value="0"/>
+                        <t t-foreach="o.split_etiquettes()" t-as="ligne">
+                            <t t-if="break_point==5">
+                                <p style="page-break-after:always;"></p>
+                            </t>
+                            <div class="row">
+                                <t t-foreach="ligne" t-as="l">
+                                    <div class="col-3">
+                                        <div class="prixp">
+                                            <span t-esc="l.prix"
+                                                  t-options='{"widget": "monetary", "display_currency": l.currency_id}'/>
+                                        </div>
+                                        <div class="nomp">
+                                            <span t-esc="l.nomp"/>
+                                        </div>
+                                        <div class="refp">
+                                            <span t-esc="l.codep"/>
+                                        </div>
+                                        <div class="barcode">
+                                            <div class="barcodeleft">
+                                                <div class="codebi">
+                                                    <!--                       <img alt="Barcode" t-if="len(l.barcode) == 13" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', l.barcode, 600, 150)" style="width:100%;height::3rem;"/>-->
+                                                    <img alt="Barcode"
+                                                         t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', l.barcode, 600, 150)"
+                                                         style="width:100%;height::3rem;"/>
+                                                </div>
+                                                <div class="codeb">
+                                                    <span t-field="l.barcode"/>
+                                                </div>
+                                            </div>
+                                            <div class="barcoderight">
+                                                <span t-esc="l.codef"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </t>
+                            </div>
+                            <t t-set="break_point" t-value="break_point+1"/>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <template id="report_etiquette_portrait">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                        <!--                                                <div class="row">-->
+                        <!--                                                    <t t-esc="docs" />-->
+                        <!--                                                </div>-->
+                        <t t-set="break_point" t-value="0"/>
+                        <t t-foreach="o.split_etiquettes()" t-as="ligne">
+                            <t t-if="break_point==8">
+                                <p style="page-break-after:always;"></p>
+                            </t>
+                            <div class="row">
+                                <t t-foreach="ligne" t-as="l">
+                                    <div class="col-3">
+                                        <div class="prixp">
+                                            <span t-esc="l.prix"
+                                                  t-options='{"widget": "monetary", "display_currency": l.currency_id}'/>
+                                        </div>
+                                        <div class="nomp">
+                                            <span t-esc="l.nomp"/>
+                                        </div>
+                                        <div class="refp">
+                                            <span t-esc="l.codep"/>
+                                        </div>
+                                        <div class="barcode">
+                                            <div class="barcodeleft">
+                                                <div class="codebi">
+                                                    <!--                       <img alt="Barcode" t-if="len(l.barcode) == 13" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', l.barcode, 600, 150)" style="width:100%;height::3rem;"/>-->
+                                                    <img alt="Barcode"
+                                                         t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', l.barcode, 600, 150)"
+                                                         style="width:100%;height::3rem;"/>
+                                                </div>
+                                                <div class="codeb">
+                                                    <span t-field="l.barcode"/>
+                                                </div>
+                                            </div>
+                                            <div class="barcoderight">
+                                                <span t-esc="l.codef"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </t>
+                            </div>
+                            <t t-set="break_point" t-value="break_point+1"/>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

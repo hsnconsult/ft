@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="minimal_layout_inherit" inherit_id="web.minimal_layout">
+		<xpath expr="//head" position="inside">
+			<link rel='stylesheet' href="/iwel/static/src/css/iwel.css"/>
+		</xpath>
+</template>
+<template id="report_reception_art">
+    <t t-call="web.html_container">
+        <t t-set="data_report_margin_top" t-value="10"/>
+        <t t-set="data_report_margin_left" t-value="12"/>
+        <t t-set="data_report_header_spacing" t-value="9"/>
+        <t t-set="data_report_dpi" t-value="110"/>
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.basic_layout">
+              <!--<div class="header text-left haut">
+                <img src="/iwel/static/src/img/entete.png" width="100%"/>
+              </div>-->
+                <div class="page" style="font-family:Arial, Helvetica, sans-serif; margin-top:20px; padding-top:20px;">
+				<t t-if="o.state in ('draft')">
+<div style="position:absolute;opacity:0.25;z-index:1000;transform:rotate(300deg);-webkit-transform:rotate(300deg);width:150%;">
+<p style="font-size:150px;">BROUILLON</p>
+</div>
+</t>	
+      	<div class="titrerecep"> 
+		BON DE RECEPTION DE LIVRAISON <span t-esc="o.fichier"/> - Réceptionné le <span t-esc="o.datereception"/>
+		</div> 
+		<div class="coderecep"> 
+		<img alt="Barcode" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', o.fichier, 600, 150)" style="width:100%;height::2rem;"/>
+		</div> 
+
+                   <div class="tableaurecep">
+                     <table class="tablerecep esp" width="100%">
+                          <thead>
+  							<tr>
+							    <th>N°</th>
+							    <th>Code</th>
+							    <th class="r3">Gencode</th>
+								<th>Reference Fournisseur</th>
+								<th class="designation">Désignation</th>
+							    <th>Prix d'achat</th>
+							    <th>PVI</th>
+								<th>Qte cmde</th>
+								<th>Qte reçue BL</th>
+								<th>Qte reçue Bon</th>
+								<th>Qte reçue End.</th>
+								<th>Ecart Liv.</th>
+								<th>Ecart Cmde</th>
+								<th>Comment</th>
+							</tr>
+                          </thead>
+                         <tbody class="poste">
+                          <t t-foreach="o.ligne_reception" t-as="lr">
+                           <tr>
+                            <td></td>
+							<td><span t-esc="lr.c9"/></td>
+							<td class="rcent"><span t-esc="lr.c11"/></td>
+							<td><span t-esc="lr.c8"/></td>
+							<td><span t-esc="lr.c10"/></td>
+							<td><span t-esc="lr.c15"/></td>
+							<td><span t-esc="lr.c16"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.c13).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.c14).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.qterecue).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.endommage).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.ecart).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="'{:,.0f}'.format(lr.ecartcom).replace(',', ' ').replace('.', ',')"/></td>
+							<td class="rcent"><span t-esc="lr.comment"/></td>
+                          </tr>
+						  </t>
+                         </tbody>
+                       </table>
+                       </div>
+                   </div>
+        </t>
+	</t>
+    </t>
+</template>
+</odoo>

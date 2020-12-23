@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="create_po_tree" model="ir.ui.view">
+            <field name="name">Create purchase order</field>
+            <field name="model">iwel.lignereception</field>
+            <field name="arch" type="xml">
+                <tree string="reception" create="0" delete="0">
+                    <field name="idpicking"/>
+                    <field name="c9"/>
+                    <field name="c11"/>
+                    <field name="c8"/>
+                    <field name="c10"/>
+                    <field name="c13"/>
+                    <field name="c14"/>
+                    <field name="qterecue"/>
+                    <field name="endommage"/>
+                    <field name="ecart"/>
+                    <field name="ecartcom"/>
+                    <field name="state" invisible="1"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="create_po_action">
+            <field name="name">Create a purchase order</field>
+            <field name="res_model">iwel.lignereception</field>
+            <!--            <field name="view_id" ref="iwel.create_po_tree"/>-->
+        </record>
+
+        <record model="ir.actions.server" id="create_inv_act">
+            <field name="name">Create purchase</field>
+            <field name="model_id" ref="model_iwel_lignereception"/>
+            <field name="state">code</field>
+            <field name="binding_model_id" ref="iwel.model_iwel_lignereception"/>
+            <field name="code">
+                action = record.action_create_po()
+            </field>
+        </record>
+
+
+        <record id="product_template_view_code" model="ir.ui.view">
+            <field name="name">product.template.view.form.codedomaxel</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <field name="default_code" position="after">
+                    <field name="c4"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- QWeb Reports -->
+    <record id="paysage" model="report.paperformat">
+        <field name="name">A4 Paysage</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">297</field>
+        <field name="page_width">210</field>
+        <field name="orientation">Landscape</field>
+        <field name="margin_top">40</field>
+        <field name="margin_bottom">23</field>
+        <field name="margin_left">7</field>
+        <field name="margin_right">7</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">3</field>
+        <field name="dpi">80</field>
+    </record>
+    <record id="custom_paysage" model="report.paperformat">
+        <field name="name">Nouveau format paysage pour iwel</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">297</field>
+        <field name="page_width">210</field>
+        <field name="orientation">Landscape</field>
+        <field name="margin_top">10</field>
+        <field name="margin_bottom">10</field>
+        <field name="margin_left">7</field>
+        <field name="margin_right">7</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">3</field>
+        <field name="dpi">90</field>
+    </record>
+
+    <record id="custom_normal" model="report.paperformat">
+        <field name="name">Nouveau format normal pour iwel</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">297</field>
+        <field name="page_width">210</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">10</field>
+        <field name="margin_bottom">10</field>
+        <field name="margin_left">7</field>
+        <field name="margin_right">7</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">3</field>
+        <field name="dpi">90</field>
+    </record>
+
+<!--    <report-->
+<!--            id="report_etiquette"-->
+<!--            model="product.template"-->
+<!--            string="Etiquettes"-->
+<!--            report_type="qweb-pdf"-->
+<!--            name="iwel.report_etiquette_test"-->
+<!--            file="iwel.report_etiquette_test"-->
+<!--    />-->
+
+    <report
+            id="report_etiquette_brico"
+            model="iwel.etiquette"
+            string="Etiquettes produits (5*4)"
+            report_type="qweb-pdf"
+            name="iwel.report_etiquettel"
+            file="iwel.report_etiquettel"
+            paperformat="iwel.custom_paysage"
+    />
+
+    <report
+            id="report_etiquette_brico_portrait"
+            model="iwel.etiquette"
+            string="Etiquettes produits (8*4)"
+            report_type="qweb-pdf"
+            name="iwel.report_etiquette_portrait"
+            file="iwel.report_etiquette_portrait"
+            paperformat="iwel.custom_normal"
+    />
+    <!--    name="iwel.report_etiquette_temp"-->
+    <!--            file="iwel.report_etiquette_temp"-->
+<!--    <report-->
+<!--            id="report_facture_rapport"-->
+<!--            model="account.move"-->
+<!--            string="Facture BRICO"-->
+<!--            report_type="qweb-pdf"-->
+<!--            name="iwel.report_facture_test"-->
+<!--            file="iwel.report_facture_test"-->
+<!--    />-->
+<!--    <report-->
+<!--            id="report_reception"-->
+<!--            model="iwel.reception"-->
+<!--            string="Bon de réception"-->
+<!--            report_type="qweb-pdf"-->
+<!--            name="iwel.report_reception_art"-->
+<!--            file="iwel.report_reception_art"-->
+<!--            paperformat="iwel.custom_paysage"-->
+<!--    />-->
+<!--    <report-->
+<!--            id="report_commande"-->
+<!--            model="iwel.commande"-->
+<!--            string="Commande Fournisseur"-->
+<!--            report_type="qweb-pdf"-->
+<!--            name="iwel.report_commande_test"-->
+<!--            file="iwel.report_commande_test"-->
+<!--    />-->
+
+</odoo>
