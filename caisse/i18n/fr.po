@@ -1,0 +1,705 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* caisse
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 08:35+0000\n"
+"PO-Revision-Date: 2020-04-16 09:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid ": Mouvements des stocks du"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid ": Ventes du"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid ": État de clôture de la caisse / Remise banque"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid ""
+"<br/>\n"
+"                <strong>Clôture:</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>(+/-) Ecart</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>+     Ventes espèces</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>AJUSTEMENT COMPTABLE</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Billet/Pièce</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Client</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>ENCAISSE</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Les chèques reçus</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Montant</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Nombre</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Ouverture:</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Solde comptable</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Solde initial</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Sous total</strong>"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_account_reconciliation_widget
+msgid "Account Reconciliation widget"
+msgstr "outil de réconciliation de compte"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Base taxe"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_bricoetiquette
+msgid "CATEGORIE"
+msgstr ""
+
+#. module: caisse
+#: model:ir.module.category,name:caisse.module_caisse_category
+msgid "Caisse"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_rayonsdet_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_stocks_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeurs_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeursdet_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_ventes_wizard
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__categorie
+msgid "Catégorie"
+msgstr ""
+
+#. module: caisse
+#: model:ir.module.category,description:caisse.module_caisse_category
+msgid "Catégorie Caisse"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Client"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Code"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Coût de revient"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__create_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__create_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__create_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__create_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__create_date
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__create_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__create_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__create_date
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_bricoetiquette
+msgid "DJF"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__start_date
+msgid "Date début"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__end_date
+msgid "Date fin"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.report,name:caisse.sale_rayonsdet_report
+msgid "Details rayons"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.report,name:caisse.sale_vendeursdet_report
+msgid "Details vendeurs"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Disc:"
+msgstr "Remise:"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__display_name
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__display_name
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__display_name
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__display_name
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__display_name
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_rayonsdet__display_name
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_stocks__display_name
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeurs__display_name
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeursdet__display_name
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_ventes__display_name
+msgid "Display Name"
+msgstr "Afficher Nom"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__start_date
+msgid "Début"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.act_window,name:caisse.action_report_pos_rayonsdet
+msgid "Détail rayons"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.act_window,name:caisse.action_report_pos_vendeursdet
+msgid "Détail vendeurs"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__location
+msgid "Emplacement"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Emplacement:"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__end_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__end_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__end_date
+msgid "End Date"
+msgstr "Date de fin"
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_stocks_wizard
+msgid "Etat des stocks"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_ventes_wizard
+msgid "Etat des ventes"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_rayonsdet_wizard
+msgid "Etat détaillé par rayon"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_vendeursdet_wizard
+msgid "Etat détaillé par vendeur"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_vendeurs_wizard
+msgid "Etat par vendeur"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.report,name:caisse.report_etiquette
+msgid "Etiquette Brico"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__end_date
+msgid "Fin"
+msgstr ""
+
+#. module: caisse
+#: model:res.groups,name:caisse.group_caisse_stock
+msgid "Gestionnaire Stocks"
+msgstr "Gestionnaire Caisse"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Grand Total"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__id
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__id
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__id
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__id
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__id
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_rayonsdet__id
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_stocks__id
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeurs__id
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeursdet__id
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_ventes__id
+msgid "ID"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_rayonsdet_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_stocks_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeurs_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeursdet_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_ventes_wizard
+msgid "Imprimer"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard____last_update
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard____last_update
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard____last_update
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard____last_update
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard____last_update
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_rayonsdet____last_update
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_stocks____last_update
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeurs____last_update
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_vendeursdet____last_update
+#: model:ir.model.fields,field_description:caisse.field_report_caisse_report_ventes____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__write_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__write_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__write_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__write_uid
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__write_date
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__write_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__write_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__write_date
+#: model:ir.model.fields,field_description:caisse.field_pos_ventes_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Marge totale"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Marge unitaire"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeurs
+msgid "Montant des ventes"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Montant taxe"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_stocks_wizard__avecm
+msgid "Mouvementé"
+msgstr ""
+
+#. module: caisse
+#: code:addons/caisse/models/caisse.py:0
+#, python-format
+msgid "No Taxes"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Nom"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeurs
+msgid "Nombre de ventes"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Paiements"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Session du point de vente"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__pos_config_ids
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__pos_config_ids
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__pos_config_ids
+msgid "Pos Config"
+msgstr "Configuration du PdV"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Prix unitaire"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Produit"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Produits"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Pu Vente Net"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeurs
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Période:"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Quantité"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Quantité entrée"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Quantité sortie"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Quantié vendue"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__rayon
+msgid "Rayon"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_session__remis
+msgid "Remis en banque"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_caisse_pos_form
+msgid "Remise en banque"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_rayonsdet_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeurs_wizard
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_vendeursdet_wizard
+msgid "Sales Details"
+msgstr "Détails des Ventes"
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_session__compta
+#: model_terms:ir.ui.view,arch_db:caisse.view_caisse_pos_form
+msgid "Sortie de caisse"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Sous Total POS-Cash"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Sous Total POS-Crédit"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_rayonsdet_wizard__start_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeurs_wizard__start_date
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__start_date
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Stock final"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+msgid "Stock initial"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_stocks_wizard
+msgid "Stocks"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Taxes"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Total"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "Total vendu"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Total:"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "Type"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "VISA CAISSIER"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rapcloture
+msgid "VISA CONTROLE"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model.fields,field_description:caisse.field_pos_vendeursdet_wizard__vendeur
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeurs
+msgid "Vendeur"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.view_pos_ventes_wizard
+msgid "Ventes"
+msgstr ""
+
+#. module: caisse
+#: code:addons/caisse/models/etats_caisse.py:0
+#, python-format
+msgid "You have to set a logo or a layout for your company."
+msgstr "Vous n'avez défini aucun logo ou aucune mise en page pour votre société."
+
+#. module: caisse
+#: code:addons/caisse/models/etats_caisse.py:0
+#, python-format
+msgid "You have to set your reports's header and footer layout."
+msgstr "Vous devez définir l'entête et le pied de page de votre mise en page."
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_stocks
+#: model_terms:ir.ui.view,arch_db:caisse.report_ventes
+msgid "au"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_bricoetiquette
+msgid "barre"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_bricoetiquette
+msgid "prix"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_bricoetiquette
+msgid "produit"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_report_caisse_report_rayonsdet
+msgid "report.caisse.report_rayonsdet"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_report_caisse_report_stocks
+msgid "report.caisse.report_stocks"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_report_caisse_report_vendeurs
+msgid "report.caisse.report_vendeurs"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_report_caisse_report_vendeursdet
+msgid "report.caisse.report_vendeursdet"
+msgstr ""
+
+#. module: caisse
+#: model:ir.model,name:caisse.model_report_caisse_report_ventes
+msgid "report.caisse.report_ventes"
+msgstr ""
+
+#. module: caisse
+#: model:ir.ui.menu,name:caisse.menu_report_stocks
+msgid "État Stocks"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.report,name:caisse.report_cloture
+msgid "État de clôture"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_rayonsdet
+msgid "État des ventes du rayon"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeursdet
+msgid "État des ventes du vendeur"
+msgstr ""
+
+#. module: caisse
+#: model_terms:ir.ui.view,arch_db:caisse.report_vendeurs
+msgid "État des ventes par vendeur"
+msgstr ""
+
+#. module: caisse
+#: model:ir.ui.menu,name:caisse.menu_report_vendeursdet
+msgid "État détaillé vendeur"
+msgstr ""
+
+#. module: caisse
+#: model:ir.ui.menu,name:caisse.menu_report_ventes
+msgid "État journalier des ventes"
+msgstr ""
+
+#. module: caisse
+#: model:ir.ui.menu,name:caisse.menu_report_rayonsdet
+msgid "État par rayon"
+msgstr ""
+
+#. module: caisse
+#: model:ir.ui.menu,name:caisse.menu_report_vendeurs
+msgid "État par vendeur"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.act_window,name:caisse.action_report_pos_stocks
+#: model:ir.actions.report,name:caisse.sale_stocks_report
+msgid "État stocks"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.act_window,name:caisse.action_report_pos_vendeurs
+#: model:ir.actions.report,name:caisse.sale_vendeurs_report
+msgid "État vendeurs"
+msgstr ""
+
+#. module: caisse
+#: model:ir.actions.act_window,name:caisse.action_report_pos_ventes
+#: model:ir.actions.report,name:caisse.sale_ventes_report
+msgid "État ventes"
+msgstr ""

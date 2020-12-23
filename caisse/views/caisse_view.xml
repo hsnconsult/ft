@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_caisse_pos_form" model="ir.ui.view">
+            <field name="name">Pos.ext</field>
+            <field name="model">pos.session</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_session_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_pos_session_validate']" position="after">
+                    <button name="transferer" type="object" string="Sortie de caisse"
+                            attrs="{'invisible' : ['|', ('compta', '=', True),('state', '!=', 'closed')]}"
+                            class="oe_highlight" groups="account.group_account_manager"/>
+                    <button name="transferer2" type="object" string="Remise en banque"
+                            attrs="{'invisible' : ['|', ('remis', '=', True),('compta', '=', False)]}"
+                            class="oe_highlight" groups="account.group_account_manager"/>
+                </xpath>
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="compta" readonly="1" invisible="1"/>
+                    <field name="remis" readonly="1" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
